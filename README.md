@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Nome completo do aluno 1
-* Nome completo do aluno 2
+* Luiz Gustavo Pires Pereira
 * Andre Azevedo Ferreira Carvalho
 * Anderson Rodrigo Vilaça Baia 
 * Leonardo Rodrigues Barbosa Maia
