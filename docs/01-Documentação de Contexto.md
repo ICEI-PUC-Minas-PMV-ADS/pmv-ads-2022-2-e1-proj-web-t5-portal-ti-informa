@@ -10,7 +10,7 @@ Com tantas pessoas buscando informação e qualificação na área, se faz neces
 Conforme exposto, o problema que se espera resolver com este projeto é a falta de informações organizadas e orientações para os usuários que são iniciantes da área de 
 Tecnologia da Informação, com confiabilidade e simplicidade. Boa parte do conteúdo disponível na internet está pulverizado nas redes sociais, voltado para o público já 
 familiarizado com os jargões e termos técnicos específicos. Os usuários com menos conhecimentos dos sites e perfis que compartilham conhecimento, principalmente em 
-redes sociais como Twitter, Reddit e essencialmente o Linkedin, não consegue acompanhar o conteúdo e as discussões. Muitos sites tem algumas informações úteis, mas 
+redes sociais como Twitter, Reddit e essencialmente o Linkedin, não conseguem acompanhar o conteúdo e as discussões. Muitos sites tem algumas informações úteis, mas 
 como comercializam cursos e treinamentos, as informações encontram-se incompletas para acesso gratuito e é usada uma linguagem mais comercial com o intuito de informar 
 superficialmente antes da compra. 
 
