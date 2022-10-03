@@ -40,7 +40,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 ## Tela de Cadastro de Usuário
 ![Exemplo de Wireframe](img/6CadastroTela.png)
 
-## Wireframes Tela de Perfil de Usuário
+## Tela de Perfil de Usuário
 ![Exemplo de Wireframe](img/7PerfilTela.png)
 
 
