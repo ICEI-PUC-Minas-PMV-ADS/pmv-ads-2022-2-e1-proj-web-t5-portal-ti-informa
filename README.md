@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
+* Daniella Souza de Oliveira
 * Luiz Gustavo Pires Pereira
 * Andre Azevedo Ferreira Carvalho
 * Anderson Rodrigo Vilaça Baia 
