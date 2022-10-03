@@ -6,13 +6,14 @@ Será mostrado os detalhes técnicos do projeto feito pela equipe, mostrando os 
 
 ## Diagrama de componentes
 
-Sera apresentado na figura a seguir os componentes que fazem parte do projeto apresentado.
+Será apresentado na figura a seguir os componentes que fazem parte do projeto apresentado.
 
 Exemplo: 
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+Os componentes que fazem parte da solução são apresentados na Figura 01.
 
-![Diagrama de Componentes](img/componentes.png)
+
+![Diagrama de Componentes](https://user-images.githubusercontent.com/114547158/193485359-12c48c0f-4a67-43bf-9231-5d52b2bd9e57.JPG)
 <center>Figura XX - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
