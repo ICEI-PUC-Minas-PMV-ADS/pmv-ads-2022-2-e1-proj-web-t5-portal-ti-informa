@@ -21,6 +21,30 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
+ Nosso projeto visa a elaboração de portal web para sanar dúvidas e auxiliar pessoas que estejam iniciando no ramo de
+TI(Tecnologia da Informação), nosso foco são os iniciantes, promovendo assim um Portal
+que contenha setores mais genéricos para quem ainda não tem nenhuma noção por onde
+começar e também setores mais específicos sobre determinada área de estudo(Ex:
+Sistemas de Informação, Análise e Desenvolvimento de Sistemas, Ciência da Computação,
+etc) ou áreas de trabalho.
+ Uma dúvida que surge muito é "qual curso preciso fazer para
+poder concorrer a esta vaga?", e com isso podemos auxiliar estas pessoas dando uma
+direção de estudos em nosso portal.
+Sempre que decidimos tomar um novo rumo em nossa vida profissional, não temos clareza
+de quais ramos ou cargos podemos ingressar por meio do curso escolhido, uma vez que a
+área de Tecnologia abrange diversos cursos técnicos, graduação, tecnólogos e
+Extracurriculares.
+ Nos últimos tempos diversas pessoas despertaram o desejo pela tecnologia, uma vez que ela
+está cada vez mais presente em nossas vidas, isso acaba despertando a curiosidade e o
+desejo de se aprofundar na área ou até mesmo se tornar um profissional de TI, além de que
+as oportunidades de emprego não param de crescer, o número de empresas de TI que
+buscaram profissionais juniores, com no máximo dois anos de carreira, teve o crescimento
+de mais de 170% no 1º semestre de 2021.
+As vagas são vastas e muitos buscam uma orientação na internet para decidir qual rumo
+tomar nos estudos visando alcançar seus objetivos profissionais.
+O número de empresas de TI que buscaram profissionais juniores, com no máximo dois
+anos de carreira, crescimento de mais de 170% no 1º semestre de 2021.
+
 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
