@@ -22,7 +22,7 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 ## Objetivos
 
  Nosso projeto visa a elaboração de portal web para sanar dúvidas e auxiliar pessoas que estejam iniciando no ramo de
-TI(Tecnologia da Informação), nosso foco são os iniciantes, promovendo assim um Portal
+TI(Tecnologia da Informação), nosso foco são os iniciantes, promovendo assim um portal
 que contenha setores mais genéricos para quem ainda não tem nenhuma noção por onde
 começar e também setores mais específicos sobre determinada área de estudo(Ex:
 Sistemas de Informação, Análise e Desenvolvimento de Sistemas, Ciência da Computação,
