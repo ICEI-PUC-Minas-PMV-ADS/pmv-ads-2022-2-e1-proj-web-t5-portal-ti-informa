@@ -16,6 +16,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Anderson Rodrigo Vilaça Baia 
 * Leonardo Rodrigues Barbosa Maia
 * Marlon Sttefane Guimarães Silva
+* Lizane Faria Rodrigues
 
 ## Orientador
 
