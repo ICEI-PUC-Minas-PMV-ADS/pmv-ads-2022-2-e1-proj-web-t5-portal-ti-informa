@@ -13,7 +13,7 @@ Exemplo:
 Os componentes que fazem parte da solução são apresentados na Figura 01.
 
 
-![Diagrama de Componentes]![Slide1](https://user-images.githubusercontent.com/114547158/193489811-cd288292-e4ed-476a-9990-ad7d2dc97aee.JPG)
+![Diagrama de Componentes]![Slide1](![image](https://user-images.githubusercontent.com/114544326/193951021-e95bd818-6ecc-42e7-955b-c02820279949.png)
 
 <center>Figura XX - Arquitetura da Solução</center>
 
