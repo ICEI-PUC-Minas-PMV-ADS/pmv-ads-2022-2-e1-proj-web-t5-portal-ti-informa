@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
- A definição no qual se baseia o problema levantado nesse projeto, foi considerado com base nas necessidades dos usuários retratados pelos membros da equipe e detalhados em forma de persona e história de usuários.
+ A definição no qual se baseia o problema levantado nesse projeto, foi considerado com base nas necessidades dos usuários retratados pelos membros da equipe e detalhados em forma de persona e histórias de usuários.
 
 
 ## Personas
