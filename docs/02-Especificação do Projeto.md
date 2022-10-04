@@ -34,3 +34,11 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 ![Restrições](img/restricoes.jpg)
 
 
+## Referências
+A lista a seguir traz as referências utilizadas nesse trabalho. são elas: 
+https://www.advanceconsulting.com.br/pesquisa#:~:text=Segundo%20pesquisa%20feita%20pela%20ADVANCE,vendendo%20tudo%20o%20que%20poderia.
+
+https://brasscom.org.br/estudo-da-brasscom-aponta-demanda-de-797-mil-profissionais-de-tecnologia-ate-2025/
+
+https://www.profissionaisti.com.br/a-dificuldade-do-primeiro-emprego-no-mercado-de-ti/
+
