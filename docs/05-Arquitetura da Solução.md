@@ -2,11 +2,11 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Será mostrado os detalhes técnicos do projeto feito pela equipe, mostrando os componentes que fazem parte da solução e do ambiente de hospedagem da solução.
+Nesse ponto iremos mostrar os detalhes técnicos do projeto elaborado pela equipe, apontando os componentes que fazem parte da solução e do ambiente de hospedagem da solução.
 
 ## Diagrama de componentes
 
-Será apresentado na figura a seguir os componentes que fazem parte do projeto apresentado.
+A figura a seguir mostra os componentes que fazem parte do presente projeto.
 
 Exemplo: 
 
@@ -18,12 +18,12 @@ Os componentes que fazem parte da solução são apresentados na Figura 01.
 <center>Figura XX - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Será utilizado o a linguagem de marcação HTML,na parte estética utilizaremos o CSS, JavaScript para implementar itens complexos nas páginas web criadas
+- **Navegador** - Interface básica do sistema.  
+  - **Páginas Web** - Será utilizada a linguagem de marcação HTML, na parte estética utilizaremos o CSS e JavaScript para implementar itens complexos nas páginas web criadas.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Artigos** - seções de texto aonde se apresenta opiniões particulares
-     - **Comentários** - Ficara armazenado as opiniões e ponto de vista dos usuarios
-     - **Noticias** - lista de notícias mantidas para leitura e acesso posterior
+     - **Artigos** - Seções de texto aonde serão apresentadas opiniões particulares de especialistas;
+     - **Comentários** - Ficarão armazenadas as opiniões e ponto de vista dos usuários;
+     - **Noticias** - Lista de notícias mantidas para leitura e acesso posterior.
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
@@ -69,7 +69,7 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+O site utilizará para hospedagem a plataforma Heroku uma vez que suporta a linguagem de programação do projeto. O site é mantido no ambiente da URL: 
 
 > **Links Úteis**:
 >
