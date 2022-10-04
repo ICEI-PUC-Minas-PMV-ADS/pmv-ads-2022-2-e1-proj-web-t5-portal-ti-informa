@@ -1,10 +1,10 @@
 # Portal TI Informa
 
-`CURSO`
+`ANALISE E DESENVOLVIMENTO DE SISTEMA`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`2 Semestre: 2022`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
