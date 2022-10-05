@@ -24,9 +24,9 @@ A solução implementada conta com os seguintes módulos:
      - **Materias de estudo** - Seções de texto aonde serão apresentadas cursos particulares e dicas  de  especialistas;
      - **Comentários** - Ficarão armazenadas as opiniões e ponto de vista dos usuários;
      - **Noticias** - Lista de notícias mantidas para leitura e acesso posterior.
-     - **Login/Cadastro* - Seção destinada ao cadastro de novos usuarios, e salvo dados de usuarios cadastrados;
+     - **Login/Cadastro** - Seção destinada ao cadastro de novos usuarios, e salvo dados de usuarios cadastrados;
      - **Vagas** - ficara a mostra oportunidades de emprego;
-     - **Meu perfil* - Seção para o usuario editar o seu perfil de cadastro.
+     - **Meu perfil** - Seção para o usuario editar o seu perfil de cadastro.
      - **Fale conosco** - Seção dedicada para tirar duvidas com os administradores do portal;
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
