@@ -12,7 +12,7 @@ Conforme exposto, o problema que se espera resolver neste projeto é a falta de 
 
 ## Objetivos
 
- Nosso projeto visa a elaboração de portal web para sanar dúvidas e auxiliar pessoas que estejam iniciando no ramo de Análise e Desenvolvimento de Sistemas. Nosso foco são os iniciantes, onde promoveremos um portal que contenha conteúdos mais genéricos para quem ainda não tem nenhuma noção por onde começar e também conteúdos mais específicos sobre a área de estudo, bem como, suas repectivas áreas de atuação. Queremos também proporcionar uma interação maior com os usuários onde os mesmos possam interagir com comentários e ou curtidas sobre determinada informação.
+ Nosso projeto visa a elaboração de portal web para sanar dúvidas auxiliando pessoas que estejam iniciando no ramo de Análise e Desenvolvimento de Sistemas. Nosso foco são os iniciantes, onde promoveremos um portal que contenha conteúdos para quem ainda não tem nenhuma noção da área e nem sabe por onde começar. Traremos também, conteúdos sobre a área de estudo, bem como, suas repectivas áreas de atuação. A fim de proporcionar uma maior interação com os usuários do site haverá área para comentários e/ou curtidas.
 
 
 ## Justificativa
