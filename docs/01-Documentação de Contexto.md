@@ -12,11 +12,7 @@ Conforme exposto, o problema que se espera resolver neste projeto é a falta de 
 
 ## Objetivos
 
-Nosso projeto visa a elaboração de portal web para sanar dúvidas e auxiliar pessoas que estejam iniciando no ramo da Tecnologia da Informação. Nosso foco são os iniciantes, onde promoveremos um portal que contenha conteúdos mais genéricos para quem ainda não tem nenhuma noção por onde começar e também conteúdos mais específicos sobre cada área de estudo, como, por exemplo, Sistemas de Informação, Análise e Desenvolvimento de Sistemas, Ciência da Computação, etc, bem como as suas repectivas áreas de atuação.
-Uma dúvida que surge muito entre aqueles que estão iniciando na área da tecnologia é sobre “qual curso preciso fazer para poder concorrer a uma determinada vaga?”, e o nosso site irá auxiliar estas pessoas dando uma direcionamento de estudos.
-Sempre que decidimos tomar um novo rumo em nossa vida profissional não temos clareza de quais ramos ou cargos podemos ingressar por meio do curso escolhido, uma vez que a área de tecnologia abrange diversos cursos técnicos, graduações, tecnólogos e extracurriculares.
-Nos últimos tempos diversas pessoas despertaram o desejo pela tecnologia, uma vez que ela está cada vez mais presente em nossas vidas. Isso acaba despertando a curiosidade e o desejo de se aprofundar na área ou até mesmo se tornar um profissional de TI. A isso soma-se o fato de que as oportunidades de emprego não param de crescer, e o número de empresas de TI que buscaram profissionais juniores, com no máximo dois anos de carreira, teve o crescimento de mais de 170% no 1º semestre de 2021.
-As vagas são vastas e muitos buscam uma orientação em sites para decidir qual caminho seguir nos estudos visando alcançar seus objetivos profissionais.
+ Nosso projeto visa a elaboração de portal web para sanar dúvidas e auxiliar pessoas que estejam iniciando no ramo de Análise e Desenvolvimento de Sistemas. Nosso foco são os iniciantes, onde promoveremos um portal que contenha conteúdos mais genéricos para quem ainda não tem nenhuma noção por onde começar e também conteúdos mais específicos sobre a área de estudo, bem como, suas repectivas áreas de atuação. Queremos também proporcionar uma interação maior com os usuários onde os mesmos possam interagir com comentários e ou curtidas sobre determinada informação.
 
 
 ## Justificativa
