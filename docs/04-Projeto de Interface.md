@@ -29,6 +29,6 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 ![Exemplo de Wireframe](img/6CadastroTela.png)
 
 ## Tela de Perfil de Usuário
-![Exemplo de Wireframe](img/personas.pdf)
+![Exemplo de Wireframe](img/Personas.pdf)
 
 
