@@ -4,12 +4,9 @@
 
 
 ## Personas
-
- A definição no qual se baseia o problema levantado nesse projeto, foi considerado com base nas necessidades dos usuários retratados pelos membros da equipe e detalhados em forma de persona e história de usuários.
 ![Personas](img/personas.jpg)
 
 ## Histórias de Usuários
-
  A partir da compreensão das necessidades das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 ![Histórias de Usuário](img/historiasuser.jpg)
 
