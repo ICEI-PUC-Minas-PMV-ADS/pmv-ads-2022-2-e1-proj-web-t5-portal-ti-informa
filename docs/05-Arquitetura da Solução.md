@@ -38,32 +38,18 @@ A solução implementada conta com os seguintes módulos:
 
 
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução.
-(img/userflow.jpg)
+![userflow](https://user-images.githubusercontent.com/114547158/194790734-90e8cc15-9896-4b9a-bd1a-a6351f94e76a.jpg)
 
+Assimque o usuário entra na plataforma, ele é apresentado à tela inicial de noticias
+(Tela 1) onde ele tem a opção de fazer login ou cadastrar.
 
+Caso ele opte por seguir pelo primeiro caminho, ele devera colocar senha para 
+entrar cadastrado no site. 
+Caso já tenha cadastro e opte pela segunda opção, ele deverá ele deverá criar
+uma senha, e escrever o email pessoal, para seguir com o cadastro.
 
-Assimque o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
-
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
-
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
+com login ativo, ele poderá entrar nas noticias e poderá deixar um like, ou comentar. 
+Caso ele, não esteja logado, não será permitido deixar like ou comentar.
 
 
 ## Tecnologias Utilizadas
