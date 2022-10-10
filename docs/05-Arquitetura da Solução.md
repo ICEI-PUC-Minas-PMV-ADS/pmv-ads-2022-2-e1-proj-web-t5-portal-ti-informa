@@ -38,7 +38,7 @@ A solução implementada conta com os seguintes módulos:
 
 
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução.
-
+(img/userflow.jpg)
 
 
 
