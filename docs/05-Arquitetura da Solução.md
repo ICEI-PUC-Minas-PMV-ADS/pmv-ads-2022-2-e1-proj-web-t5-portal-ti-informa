@@ -62,6 +62,7 @@ Utilizaremos as linguagems Javascript, html e css para a criação do portal. CO
 ## Hospedagem
 
 O site utilizará para hospedagem a plataforma Heroku uma vez que suporta a linguagem de programação do projeto. O site fica alocado na URL: 
+ https://portalti.herokuapp.com/. 
 
 > **Links Úteis**:
 >
