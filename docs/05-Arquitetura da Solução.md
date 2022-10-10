@@ -65,7 +65,7 @@ para a Tela 2.
 
 ## Tecnologias Utilizadas
 
-Utilizaremos as linguagems Java, html e css para a criação do portal. COmo plataforma de hospedagem, utilizaremos o Heroku.
+Utilizaremos as linguagems Javascript, html e css para a criação do portal. COmo plataforma de hospedagem, utilizaremos o Heroku.
 
 
 
