@@ -23,7 +23,7 @@ A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema.  
   - **Páginas Web** - Será utilizada a linguagem de marcação HTML, na parte estética utilizaremos o CSS e JavaScript para implementar itens complexos nas páginas web criadas.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Materias de estudo** - Seções de texto aonde serão apresentadas cursos particulares e dicas  de  especialistas;
+     - **Cursos** - Seção aonde serão apresentadas cursos externos;
      - **Comentários** - Ficarão armazenadas as opiniões e ponto de vista dos usuários;
      - **Noticias** - Lista de notícias mantidas para leitura e acesso posterior.
      - **Login/Cadastro** - Seção destinada ao cadastro de novos usuarios, e salvo dados de usuarios cadastrados;
