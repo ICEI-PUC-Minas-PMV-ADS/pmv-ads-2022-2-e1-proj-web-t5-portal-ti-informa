@@ -65,14 +65,14 @@ para a Tela 2.
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Utilizaremos as linguagems Java, html e css para a criação do portal. COmo plataforma de hospedagem, utilizaremos o Heroku.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+
 
 
 ## Hospedagem
 
-O site utilizará para hospedagem a plataforma Heroku uma vez que suporta a linguagem de programação do projeto. O site é mantido no ambiente da URL: 
+O site utilizará para hospedagem a plataforma Heroku uma vez que suporta a linguagem de programação do projeto. O site fica alocado na URL: 
 
 > **Links Úteis**:
 >
