@@ -40,7 +40,7 @@ A solução implementada conta com os seguintes módulos:
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução.
 ![userflow](https://user-images.githubusercontent.com/114547158/194790734-90e8cc15-9896-4b9a-bd1a-a6351f94e76a.jpg)
 
-Assimque o usuário entra na plataforma, ele é apresentado à tela inicial de noticias
+Assim que o usuário entra na plataforma, ele é apresentado à tela inicial de noticias
 (Tela 1) onde ele tem a opção de fazer login ou cadastrar.
 
 Caso ele opte por seguir pelo primeiro caminho, ele devera colocar senha para 
@@ -48,7 +48,7 @@ entrar cadastrado no site.
 Caso já tenha cadastro e opte pela segunda opção, ele deverá ele deverá criar
 uma senha, e escrever o email pessoal, para seguir com o cadastro.
 
-com login ativo, ele poderá entrar nas noticias e poderá deixar um like, ou comentar. 
+Com login ativo, ele poderá entrar nas noticias e poderá deixar um like, ou comentar. 
 Caso ele, não esteja logado, não será permitido deixar like ou comentar.
 
 
