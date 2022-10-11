@@ -2,7 +2,9 @@
 # Metodologia
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+
 Na metodologia fazemos as definições ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos, para a organização do time, na execução das tarefas do projeto, para definições dos processos a serem executados.
+
 Relação de Ambientes de Trabalho
 O processo de um projeto é desenvolvido por várias plataformas, a relação de ambientes com seu respectivo proposito esta apresentada na tabela abaixo.
 
