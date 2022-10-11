@@ -15,12 +15,12 @@ Projeto de Interface e  Wireframes	MarvelApp
 	https://marvelapp.com/4hd6091  
 
 Gerenciamento do Projeto	Trello	https://trello.com/w/testefronte/home
-| teste | teste 1 | teste 4 | teste 5 |
-| ----- | ------- | ------- | ------- |
-| teste | teste 1 | teste 4 | teste 5 |
-| teste | teste 1 | teste 4 | teste 5 |
-| teste | teste 1 | teste 4 | teste 5 |
-| teste | teste 1 | teste 4 | teste 5 |
+| Amboiente | Plataforma |Link de Acesso |
+| ----- | ------- | ------- |
+| Repositório de código fonte | GitHub| https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa |
+| teste | teste 1 | teste 4 |
+| teste | teste 1 | teste 4 |
+| teste | teste 1 | teste 4 |
 
 
 Gerenciamento do Projeto
