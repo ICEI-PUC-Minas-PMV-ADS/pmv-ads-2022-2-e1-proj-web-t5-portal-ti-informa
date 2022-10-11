@@ -27,11 +27,15 @@ A equipe está organizada da seguinte maneira:
 ●	Equipe de Desenvolvimento
 
 ○	Anderson Rodrigo
+
 ○	Daniella Oliveira
+
 ○	Luiz Gustavo
+
 ○	Marlon Sttefane
 
 ●	Equipe de Design
+
 ○	Andre Carvalho
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello, para gerenciamento de tarefas, para documentos do projeto está Google drive, projeto de interface e Wireframes o MarvelApp e no repositório de código fonte GitHub.
