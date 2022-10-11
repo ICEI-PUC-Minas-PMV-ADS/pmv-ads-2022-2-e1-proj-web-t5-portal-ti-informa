@@ -6,21 +6,12 @@ Na metodologia fazemos as definições ferramental utilizado pela equipe tanto p
 Relação de Ambientes de Trabalho
 O processo de um projeto é desenvolvido por várias plataformas, a relação de ambientes com seu respectivo proposito esta apresentada na tabela abaixo.
 
-Ambiente	Plataforma	Link de Acesso
-Repositório de código fonte	GitHub	https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa
-
-Documentos do projeto	Google Drive	https://1drv.ms/w/s!At5apU5vke6bjqdSJaOcLSKw4-SMAw?e=ncjavf
-
-Projeto de Interface e  Wireframes	MarvelApp
-	https://marvelapp.com/4hd6091  
-
-Gerenciamento do Projeto	Trello	https://trello.com/w/testefronte/home
 | Amboiente | Plataforma |Link de Acesso |
 | ----- | ------- | ------- |
 | Repositório de código fonte | GitHub| https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa |
-| teste | teste 1 | teste 4 |
-| teste | teste 1 | teste 4 |
-| teste | teste 1 | teste 4 |
+| Documento do Projeto | Google Drive |  https://1drv.ms/w/s!At5apU5vke6bjqdSJaOcLSKw4-SMAw?e=ncjavf|
+| Projeto de Interface e Wireframes | MarvelApp | https://marvelapp.com/4hd6091 |
+| Gerenciamento do Projeto  | Trello | https://trello.com/w/testefronte/home |
 
 
 Gerenciamento do Projeto
@@ -30,12 +21,16 @@ A equipe faz a utilização de metodologias ágeis, escolhendo a metodologia Scr
 A equipe está organizada da seguinte maneira:
 
 ●	Scrum Master: Lizane Rodrigues
+
 ●	Product Owner: Leonardo Maia
+
 ●	Equipe de Desenvolvimento
+
 ○	Anderson Rodrigo
 ○	Daniella Oliveira
 ○	Luiz Gustavo
 ○	Marlon Sttefane
+
 ●	Equipe de Design
 ○	Andre Carvalho
 
