@@ -71,7 +71,7 @@ diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- <img src="/img/quadro-kanban.png">
+ <img src="docs/img/quadro-kanban.png">
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
 > - [Slack](https://slack.com/)
 > - [Github](https://github.com/)
