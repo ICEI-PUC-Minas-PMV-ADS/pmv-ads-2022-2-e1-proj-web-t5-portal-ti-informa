@@ -2,8 +2,55 @@
 # Metodologia
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+Na metodologia fazemos as definições ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos, para a organização do time, na execução das tarefas do projeto, para definições dos processos a serem executados.
+Relação de Ambientes de Trabalho
+O processo de um projeto é desenvolvido por várias plataformas, a relação de ambientes com seu respectivo proposito esta apresentada na tabela abaixo.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Ambiente	Plataforma	Link de Acesso
+Repositório de código fonte	GitHub	https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa
+
+Documentos do projeto	Google Drive	https://1drv.ms/w/s!At5apU5vke6bjqdSJaOcLSKw4-SMAw?e=ncjavf
+
+Projeto de Interface e  Wireframes	MarvelApp
+	https://marvelapp.com/4hd6091  
+
+Gerenciamento do Projeto	Trello	https://trello.com/w/testefronte/home
+| teste | teste 1 | teste 4 | teste 5 |
+| ----- | ------- | ------- | ------- |
+| teste | teste 1 | teste 4 | teste 5 |
+| teste | teste 1 | teste 4 | teste 5 |
+| teste | teste 1 | teste 4 | teste 5 |
+| teste | teste 1 | teste 4 | teste 5 |
+
+
+Gerenciamento do Projeto
+
+A equipe faz a utilização de metodologias ágeis, escolhendo a metodologia Scrum para a definição do processo de desenvolvimento do projeto.
+
+A equipe está organizada da seguinte maneira:
+
+●	Scrum Master: Lizane Rodrigues
+●	Product Owner: Leonardo Maia
+●	Equipe de Desenvolvimento
+○	Anderson Rodrigo
+○	Daniella Oliveira
+○	Luiz Gustavo
+○	Marlon Sttefane
+●	Equipe de Design
+○	Andre Carvalho
+
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello, para gerenciamento de tarefas, para documentos do projeto está Google drive, projeto de interface e Wireframes o MarvelApp e no repositório de código fonte GitHub.
+
+●	Backlog: Nesta listagem os itens com maior valor e prioridade devem ficar no topo para serem concluídos antes. O ideal é que sejam definidas tarefas curtas, que durem de uma a quatro semanas.
+●	To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+●	Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+●	Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/b/kU9UOH1g/desenvolvimento do projeto e é apresentado, no estado atual, na Figura 1.
+
+
+
+![quadro-kanban](https://user-images.githubusercontent.com/114541642/194972551-9f987d90-c5ef-47df-837c-e10319a280b6.png)
 
 ## Controle de Versão
 
@@ -70,7 +117,7 @@ integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
-![quadro-kanban](https://user-images.githubusercontent.com/114541642/194972551-9f987d90-c5ef-47df-837c-e10319a280b6.png)
+
 
 
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
@@ -78,3 +125,4 @@ Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justific
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
 > - [Slack](https://slack.com/)
 > - [Github](https://github.com/)
+
