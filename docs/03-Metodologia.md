@@ -27,7 +27,7 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-| Amboiente | Plataforma |Link de Acesso |
+| Ambiente | Plataforma |Link de Acesso |
 | ----- | ------- | ------- |
 | Repositório de código fonte | GitHub| https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa |
 | Documento do Projeto | Google Drive |  https://1drv.ms/w/s!At5apU5vke6bjqdSJaOcLSKw4-SMAw?e=ncjavf|
