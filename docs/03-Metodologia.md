@@ -70,8 +70,11 @@ integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
+![quadro-kanban](https://user-images.githubusercontent.com/114541642/194972551-9f987d90-c5ef-47df-837c-e10319a280b6.png)
+
+
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- <img src="docs/img/quadro-kanban.png">
+
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
 > - [Slack](https://slack.com/)
 > - [Github](https://github.com/)
