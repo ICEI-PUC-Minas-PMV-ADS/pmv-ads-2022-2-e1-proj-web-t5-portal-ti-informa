@@ -5,7 +5,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 ## User Flow - Fluxo de Usuário
  Visando garantir a fluidez do site, elaboramos um fluxo de usuário auto intuitivo, onde o usuário terá facilidade em navegar sobre os temas bem definidos.
-![UserFlow](img/userflow.jpg)
+![UserFlow](img/UserFlowNew1.jpg)
 
 ## Wireframes
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
