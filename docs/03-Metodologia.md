@@ -31,7 +31,7 @@ etiquetas:
 | ----- | ------- | ------- |
 | Repositório de código fonte | GitHub| https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa |
 | Documento do Projeto | Google Drive |  https://1drv.ms/w/s!At5apU5vke6bjqdSJaOcLSKw4-SMAw?e=ncjavf|
-| Projeto de Interface e Wireframes | MarvelApp | https://marvelapp.com/4hd6091 |
+| Projeto de Interface e Wireframes | MarvelApp | https://marvelapp.com/prototype/8223416 |
 | Gerenciamento do Projeto  | Trello | https://trello.com/w/testefronte/home |
 
 
