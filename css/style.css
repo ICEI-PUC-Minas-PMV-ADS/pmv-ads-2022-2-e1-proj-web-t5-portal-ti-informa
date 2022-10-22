@@ -6,14 +6,14 @@
 
 .paragraph, p {
   font-size: 14px;
-  color: #565656;
+  color: #ffffff;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
   line-height: 20px;
   margin: 0 0 10px; }
 
 .heading1, h1 {
-  color: #212121;
+  color: #ffffff;
   font-size: 18px;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -21,7 +21,7 @@
   margin: 0 0 20px; }
 
 .heading2, ul.author-list > li .autor-box .autor-content .autor-title h1 span:after, h2 {
-  color: #212121;
+  color: #ffffff;
   font-size: 17px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
@@ -30,7 +30,7 @@
   line-height: 28px; }
 
 .heading3, h3 {
-  color: #333333;
+  color: #ffffff;
   font-size: 14px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
@@ -2935,3 +2935,4 @@ footer {
     font-size: 20px; }
   .masonry-box .iso-call.colum-4 .news-post {
     width: 100%; } }
+    
