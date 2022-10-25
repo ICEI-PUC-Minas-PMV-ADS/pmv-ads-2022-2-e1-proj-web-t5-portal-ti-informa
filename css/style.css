@@ -261,6 +261,32 @@ header.active .top-line {
       margin-right: 3px;
       float: left; }
       .mega-posts-menu ul.filter-list li a {
+        color: #fff;
+        font-size: 12px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 400;
+        padding: 5px 10px;
+        background: #333333;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        border-radius: 2px;
+        text-transform: uppercase; }
+      .mega-posts-menu ul.filter-list li a:hover {
+        background: #5c57f2; }
+      .mega-posts-menu ul.filter-list li a {
+        color: #fff;
+        font-size: 12px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 400;
+        padding: 5px 10px;
+        background: #333333;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        border-radius: 2px;
+        text-transform: uppercase; }
+      .mega-posts-menu ul.filter-list li a {
         padding: 6px 15px;
         color: #ccc;
         font-size: 12px;
@@ -1471,6 +1497,24 @@ ul.small-posts {
       margin-bottom: 3px;
       margin-right: 3px;
       float: left; }
+      .sidebar .tags-widget ul.tags-list li a {
+        display: block;
+        padding: 5px 10px;
+        background: #f1f1f1;
+        color: #212121;
+        font-size: 12px;
+        font-family: "Roboto Condensed", sans-serif;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        border-radius: 0; }
+        .sidebar .tags-widget ul.tags-list li a:hover {
+          background: #5c57f2;
+          color: #fff; }
+  .sidebar .widget {
+    margin-bottom: 30px; }
+    .sidebar .widget:last-child {
+      margin-bottom: 0; }
       .sidebar .tags-widget ul.tags-list li a {
         padding: 8px 20px;
         color: #565656;
