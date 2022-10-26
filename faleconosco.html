@@ -88,7 +88,7 @@
                 <br>
 
 				<!--Caixas de Textos form / envio do formulario-->
-				<form id="form_submit" action="form_Faleconosco.php" method="post">
+				<form id="form_submit" method="post" action="form_Faleconosco.php">
 
 					<h5>Nome</h5>
 					<input type="text" name="Nome" size="40" required /> 
@@ -104,12 +104,11 @@
 
 					<br>
 
-				    <!--Botão Enviar dados-->
-					<input type="submit" name="Enviar" value="Enviar">
+				    <!--Link Enviar dados-->
 					<a href="#" onclick="submitForm()">Enviar Aqui</a>
-					<!-- <button>Enviar</button> -->
 				</form>
-
+                
+				<!--Função enviar js-->
 				<script>
 					function submitForm() {
 						let form = document.getElementById("form_submit");

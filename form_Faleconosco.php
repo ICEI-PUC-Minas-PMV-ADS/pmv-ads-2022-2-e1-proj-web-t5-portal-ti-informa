@@ -1,11 +1,13 @@
 <?php
-    $name=$_POST['Nome'];
-    $email=$_POST['E-mail'];
-    $assunto=$_POST['Assunto'];
-    $menssagem=$_POST['Menssagem'];
+
+    $varNome=$_POST["Nome"];
+    $varEmail=$_POST["E-mail"];
+    $varAssunto=$_POST["Assunto"];
+    $varMenssagem=$_POST["Menssagem"];
   
-    echo "NAME-SUBMITTED : $name <br>";
-    echo "E-MAIL-SUBMITTED : $email <br>";
-    echo "ASSUNTO-SUBMITTED: $assunto";
-    echo "MENSSAGEM-SUBMITTED: $menssagem";
+    echo "Nome: ".$varNome."<br/>";
+    echo "E-mail: ".$varEmail."<br/>";
+    echo "Assunto: ".$varAssunto."<br/>";
+    echo "Menssagem: ".$varMenssagem."<br/>";
+  
 ?>
