@@ -75,6 +75,7 @@
 				</nav>
 
 		</header>
+		
 		<!-- footer Corpo/Seção Fale Conosco
 			================================================== -->
 		<footer>
@@ -85,28 +86,41 @@
 				<br>
                 <h1>Fale Conosco</h1>
                 <br>
-				
+
 				<!--Caixas de Textos form / envio do formulario-->
-				<form method="get" action="envio_faleconosco.php">
+				<form id="form_submit" action="form_Faleconosco.php" method="post">
 
 					<h5>Nome</h5>
-					<input type="text" name="Nome" size="40" /> 
+					<input type="text" name="Nome" size="40" required /> 
 
 					<h5>E-mail</h5>
-					<input type="text" name="E-mail" size="40" /> 
+					<input type="text" name="E-mail" size="40" required /> 
 
 					<h5>Assunto</h5>
-					<input type="text" name="Assunto" size="40" /> 
+					<input type="text" name="Assunto" size="40" required /> 
 
 					<h5>Menssagem</h5>
-					<textarea input type="text" name="Menssagem" style="width: 400px; height: 300px;"> </textarea>
+					<textarea input type="text" name="Menssagem" style="width: 400px; height: 300px;" required></textarea>
 
 					<br>
 
 				    <!--Botão Enviar dados-->
 					<input type="submit" name="Enviar" value="Enviar">
+					<a href="#" onclick="submitForm()">Enviar Aqui</a>
 					<!-- <button>Enviar</button> -->
 				</form>
+
+				<script>
+					function submitForm() {
+						let form = document.getElementById("form_submit");
+						form.submit();
+					}
+				</script>
+
+				<br>
+				<br>
+				<br>
+				<br>
 
             </div>
 		</footer>
