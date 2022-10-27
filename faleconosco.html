@@ -87,8 +87,8 @@
                 <h1>Fale Conosco</h1>
                 <br>
 
-				<!--Caixas de Textos form / envio do formulario-->
-				<form id="form_submit" method="post" action="form_Faleconosco.php">
+				<!--Caixas de Textos form / envio do formulario para uma planilha da Web-->
+				<form action="https://api.sheetmonkey.io/form/7dJvpr8iyPqeMMz746jt1o" method="post">
 
 					<h5>Nome</h5>
 					<input type="text" name="Nome" size="40" required /> 
@@ -103,18 +103,29 @@
 					<textarea input type="text" name="Menssagem" style="width: 400px; height: 300px;" required></textarea>
 
 					<br>
+					<!--Botão Enviar dados-->
+					<button>Enviar</button>
+				    
+					<!--Link Enviar dados para o arquivo "form_Faleconosco.php".
 
-				    <!--Link Enviar dados-->
-					<a href="#" onclick="submitForm()">Enviar Aqui</a>
+					"Obs:Decidi retirar esta função por enquanto pois ainda não hospedaremos o 
+					site em nenhum servidor para que o arquivo PHP seja funcional
+					para salvar os dados enviados do formulário."
+
+					<a href="#" onclick="submitForm()">Clique Aqui Para Enviar</a>
+					-->
 				</form>
                 
-				<!--Função enviar js-->
+				<!--Função enviar em js -->
+				<!--
 				<script>
 					function submitForm() {
 						let form = document.getElementById("form_submit");
 						form.submit();
 					}
 				</script>
+			    -->
+				
 
 				<br>
 				<br>

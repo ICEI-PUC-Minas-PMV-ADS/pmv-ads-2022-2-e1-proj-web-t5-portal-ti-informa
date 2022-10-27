@@ -1,5 +1,5 @@
 <?php
-
+//Não usado no momento por falta de um servidor hospedeiro
     $varNome=$_POST["Nome"];
     $varEmail=$_POST["E-mail"];
     $varAssunto=$_POST["Assunto"];
