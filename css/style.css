@@ -129,6 +129,8 @@ header.active .top-line {
     height: 50%;
 }
 
+
+
 .titulo-noticias{
     font-size: medium;
     margin-top: 10px;
@@ -158,3 +160,9 @@ input[type=text]:focus {
 .animals{
 display: list-item;    
 } 
+
+body header nav .navbar-toggler {
+ background-color: rgba(184, 184, 184, 0.89);
+ border-color: #000000a9;
+ width: auto;
+}
