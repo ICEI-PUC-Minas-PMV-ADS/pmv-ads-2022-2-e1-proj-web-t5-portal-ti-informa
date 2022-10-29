@@ -1,4 +1,4 @@
-
+//Andre\busca =================================== -->
 function search_news() {
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
