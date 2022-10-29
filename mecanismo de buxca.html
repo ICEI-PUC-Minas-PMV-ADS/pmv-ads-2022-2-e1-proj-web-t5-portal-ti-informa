@@ -15,8 +15,14 @@
     <body>
       
         <!-- input tag -->
-        <input id="searchbar" onkeyup="search_news()" type="text"
-            name="search" placeholder="Search animals..">
+        <form class="form-inline">
+			
+			<input id="searchbar" onkeyup="search_news()" type="text"
+            	name="search" placeholder="pesquisar..">
+			<button class="btn btn-primary my-2 my-sm-0" type="submit"><i
+					class="fa fa-search"></i></button>	
+		</form>
+		
           
         <!-- ordered list -->
         <ol id='list'>
