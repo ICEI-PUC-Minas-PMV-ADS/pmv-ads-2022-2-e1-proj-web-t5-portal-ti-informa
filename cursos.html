@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/modernmag-assets.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+
+    <script src="bdcursos.js"></script>
+    
+</head>
+<header class="clearfix">
+	<div class="top-line">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5">
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logoredii.png" alt="" width="30%">
+					</a>
+				</div>
+				<div class="col-sm-7">
+
+					<ul class="info-list right-align">
+						<li>
+							<a href="#" data-toggle="modal" data-target="#loginModal"><i
+									class="fa fa-user"></i>Login</a>
+						</li>
+						<li>
+							<a href="index.html">Cadastrar</a>
+						</li>
+						<li>
+							<form class="form-inline">
+								<input class="form-control mr-sm-2" type="search" placeholder="Search for..."
+									aria-label="Search">
+								<button class="btn btn-primary my-2 my-sm-0" type="submit"><i
+										class="fa fa-search"></i></button>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg ">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cursos.html">Cursos</a>
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">NOTICIAS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="faleconosco.html">fale conosco</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+</header>
+<body>
+    <div id="principal">
+        <header>
+            <h1> <strong>Cursos</strong></h1><br>
+        </header>
+
+        <main>
+            <section>
+				<div>
+                <div id="produto-imagem">
+                   
+				</div>
+
+                <div id="produto-descricao">
+                    
+
+                </div>
+				</div>
+            </section>
+
+            <section></section>
+
+        </main>
+    
+
+    <style>
+        h1{
+            margin: auto;
+        
+        }
+        body{
+            font-size: 15px;
+            font-family: sans-serif;
+            width: 800px;
+            margin: auto;
+              
+        }
+        .produto-imagem{
+            float: left;
+        }
+        .produto-curso{
+            font-size: 20px;
+            font-family: sans-serif;
+            width: 800px;
+            margin: auto
+        }
+        .produto-descricao{
+            font-size: 15px;
+            font-family: sans-serif;
+            width: 800px;
+            margin: auto;
+        }
+        
+
+    </style>
+
+
+    <div id="lista-produto"></div>
+
+   <script>
+    var desc= '';
+        for (var index = 0; index < db.dados.length; index++) {
+            desc += `<p class="produto-curso">Curso: ${ db.dados[index].titulo} <br></p>`; 
+            desc += `<p class="produto-descricao">Descrição: ${ db.dados[index].descrição} <br></p>`;
+            desc += `<p ><img src=" ${ db.dados[index].imagem} class="produto-imagem" alt=""> <br></p>`;
+         
+        }
+        document.getElementById('lista-produto').innerHTML = desc;
+   </script>         
+    
+    
+
+</body>
+<footer>
+
+    
+
+</footer>
+</html>
