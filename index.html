@@ -17,19 +17,20 @@
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
 		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/noticiasPreCarregadas.js"></script>
+	<script src="js/index.js"></script>
 </head>
 
 
 <body>
 
-	
+
 	<header class="clearfix">
 		<div class="top-line">
 			<!-- Container -->
 			<div class="container">
-	
-	<!-- Andre\Header
+
+				<!-- Andre\Header
 ============================================== -->
 				<div class="row">
 					<div class="col-sm-5">
@@ -45,7 +46,7 @@
 										class="fa fa-user"></i>Login</a>
 							</li>
 							<li>
-								<a href="index.html">Cadastrar</a>
+								<a href="cadastro.html">Cadastrar</a>
 							</li>
 							<li>
 								<form class="form-inline">
@@ -61,44 +62,35 @@
 			</div>
 		</div>
 
-	<nav class="navbar navbar-expand-lg ">
-		<div class="container">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+		<nav class="navbar navbar-expand-lg ">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Cursos</a>
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">NOTICIAS</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="faleconosco.html">fale conosco</a>
-					</li>
-				</ul>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Cursos</a>
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">NOTICIAS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="faleconosco.html">fale conosco</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</nav>
+		</nav>
 
-</header>
+	</header>
 	<div class="container">
-		<div class="row">
-			<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-				<h4 class="titulo-noticias">.NET lança nova versão</h4>
-				<p>
-					O incentivo ao avanço tecnológico, assim como a estrutura atual da organização pode nos levar a
-					considerar a reestruturação do processo de comunicação como um todo.
-				</p>
-			</div>
-			<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-				<img src="images/net.png" />
-			</div>
+		<div class="row" id="noticiaEmDestaque">
 		</div>
 		<br>
 		<div class="row">
@@ -109,41 +101,30 @@
 			</div>
 		</div>
 		<br />
-		<div class="row">
-			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-				<img src="images/mercado-ti.jpg" class="img-home" />
-				<h4 class="titulo-noticias">Importância de se atualizar</h4>
-				<p>
-					A certificação de metodologias que nos auxiliam a lidar com a expansão dos mercados mundiais
-					acarreta um processo de reformulação e modernização do sistema de participação geral.
-				</p>
-			</div>
-			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-				<img src="images/javascript.png" class="img-home" />
-				<h4 class="titulo-noticias">JavaScript nova versão</h4>
-				<p>
-					É claro que a contínua expansão de nossa atividade afeta positivamente a correta previsão dos
-					índices pretendidos.
-				</p>
-			</div>
-			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-				<img src="images/aws.png" class="img-home" />
-				<h4 class="titulo-noticias">Amazon com problemas</h4>
-				<p>
-					É importante questionar o quanto a execução dos pontos do programa talvez venha a ressaltar a
-					relatividade do sistema de formação de quadros que corresponde às necessidades.
-				</p>
-			</div>
-			<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-				<img src="images/netflix-microsoft.jpg" class="img-home" />
-				<h4 class="titulo-noticias">Microsoft x Netflix</h4>
-				<p>
-					Ainda assim, existem dúvidas a respeito de como a execução dos pontos do programa aponta para a
-					melhoria dos índices pretendidos.
-				</p>
-			</div>
+		<div class="row" id="noticiasSemDestaque">
 		</div>
 	</div>
 </body>
+<script type="text/template" id="templateNoticiaHtml">
+	<div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" id="templateNoticia">
+		<img src="#" class="img-home" id="imgNoticia" />
+		<h4 class="titulo-noticias" id="tituloNoticia"></h4>
+		<p id="resumoNoticia"> 
+		</p>
+	</div>
+</script>
+
+<script type="text/template" id="templateNoticiaDestaqueHtml">
+	<div class="row" id="templateNoticiaDestaque">
+		<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+			<h4 class="titulo-noticias" id="tituloNoticiaDestaque"></h4>
+			<p id="resumoNoticiaDestaque">
+			</p>
+		</div>
+		<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+			<img src="#" id="imgNoticiaDestaque" />
+		</div>
+	</div>
+</script>
 
 </html>
