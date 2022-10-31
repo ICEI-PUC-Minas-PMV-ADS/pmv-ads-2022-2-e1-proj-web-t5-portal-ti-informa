@@ -28,6 +28,7 @@
 /*------------------------------------------------- */
 /* =  Header
  *------------------------------------------------- */
+
 .header-banner-place {
   width: 100%;
   padding: 14px 0 20px 0;
@@ -129,6 +130,8 @@ header.active .top-line {
     height: 50%;
 }
 
+
+
 .titulo-noticias{
     font-size: medium;
     margin-top: 10px;
@@ -159,6 +162,7 @@ input[type=text]:focus {
 display: list-item;    
 } 
 
+
 label {
   font-weight: bolder;
 }
@@ -181,4 +185,11 @@ h1 {
 }
 #grid-contatos tbody {
    cursor: pointer;
+}
+
+body header nav .navbar-toggler {
+ background-color: rgba(184, 184, 184, 0.89);
+ border-color: #000000a9;
+ width: auto;
+
 }
