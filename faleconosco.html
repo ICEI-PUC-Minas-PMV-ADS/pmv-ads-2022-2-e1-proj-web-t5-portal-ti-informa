@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--Marlon S. G. Silva-->
+
+<html lang="en" class="no-js">
+<head>
+	<title>Portal T.I</title>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" href="css/modernmag-assets.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body class="boxed-style">
+
+	<!-- Container -->
+	<div id="container">
+		<!-- Andre\Header
+		    ================================================== -->
+		<header class="clearfix">
+
+			<div class="top-line">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-5">
+							<a class="navbar-brand" href="index.html">
+								<img src="images/logoredii.png" alt="" width="30%">
+							</a>
+						</div>	
+						<div class="col-sm-7">
+							
+							<ul class="info-list right-align">
+								<li>
+									<a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-user"></i>Login</a>
+								</li>
+								<li>
+									<a href="index.html">Cadastrar</a>
+								</li>
+								<li>
+									<form class="form-inline">
+									<input class="form-control mr-sm-2" type="search" placeholder="Search for..." aria-label="Search">
+									<button class="btn btn-primary my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+									</form>
+								</li>
+							</ul>
+						</div>	
+					</div>
+				</div>
+			</div>
+	
+				<nav class="navbar navbar-expand-lg ">
+					<div class="container">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+	
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item active">
+									<a class="nav-link" href="index.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Cursos</a>
+									<li class="nav-item active">
+										<a class="nav-link" href="index.html">NOTICIAS</a>
+									</li>
+								<li class="nav-item">
+									<a class="nav-link" href="faleconosco.html">fale conosco</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+		</header>
+		
+		<!-- footer Corpo/Seção Fale Conosco
+			================================================== -->
+		<footer>
+
+          <!-- Marlon/Fale Conosco
+          ******************* -->
+            <div class="container">
+				<br>
+                <h1>Fale Conosco</h1>
+                <br>
+
+				<!--Caixas de Textos form / envio do formulario para uma planilha na Web 
+				usando o Sheet Monkey (do Google Sheets)-->
+				<form action="https://api.sheetmonkey.io/form/7dJvpr8iyPqeMMz746jt1o" method="post">
+
+					<h5>Nome</h5>
+					<input type="text" name="Nome" size="40" required /> 
+
+					<h5>E-mail</h5>
+					<input type="text" name="E-mail" size="40" required /> 
+
+					<h5>Assunto</h5>
+					<input type="text" name="Assunto" size="40" required /> 
+
+					<h5>Menssagem</h5>
+					<textarea input type="text" name="Menssagem" style="width: 400px; height: 300px;" required></textarea>
+
+					<br>
+					<!--Botão Enviar dados-->
+					<button>Enviar</button>
+				    
+					<!--Link Enviar dados para o arquivo "form_Faleconosco.php".
+
+					"Obs:Decidi retirar esta função por enquanto pois ainda não hospedaremos o 
+					site em nenhum servidor para que o arquivo PHP seja funcional
+					para salvar os dados enviados do formulário."
+
+					<a href="#" onclick="submitForm()">Clique Aqui Para Enviar</a>
+					-->
+				</form>
+                
+				<!--Função enviar em js -->
+				<!--
+				<script>
+					function submitForm() {
+						let form = document.getElementById("form_submit");
+						form.submit();
+					}
+				</script>
+			    -->
+				
+
+				<br>
+				<br>
+				<br>
+				<br>
+
+            </div>
+		</footer>
+		<!-- End footer -->
+
+	</div>
+
+  
+	
+</body>
+</html>
