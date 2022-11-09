@@ -6,6 +6,20 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
+ # Marlon Sttefane Guimarães Silva:
+ Realizei a criação da aba 'Fale Conosco'. Foi utilizado a linguagem HTML com suporte do PHP para envio e salvamento do formulário.
+ Por enquanto o arquivo .php não será utilizado, porque precisamos de um servidor hospedeiro para o site funcionar com o php e não o temos. Sendo assim, coloquei para salvar os dados do formulário em uma planilha na web, fornecida pelo Sheet Monkey em parceria com o Google Sheets, por meio de uma api.
+ Link do Sheet Monkey: https://sheetmonkey.io/
+
+![Fale Conosco](img/FaleConoscoPrint.jpg)
+
+- Link do código fonte da aba Fale Conosco: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/Site-beta/faleconosco.html
+
+- Link do código fonte do arquivo externo .php: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/Site-beta/form_Faleconosco.php
+(Não usado no momento por falta de um servidor hospedeiro. Foi substituido no momento por uma planilha do Sheet Monkey/google Sheets)
+
+
+
 > **Links Úteis**:
 >
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
