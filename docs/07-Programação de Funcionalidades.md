@@ -14,6 +14,9 @@ do mantedor do site.
  Realizei a criação da aba 'Fale Conosco'. Foi utilizado a linguagem HTML com suporte do PHP para envio e salvamento do formulário.
  Por enquanto o arquivo .php não será utilizado, porque precisamos de um servidor hospedeiro para o site funcionar com o php e não o temos. Sendo assim, coloquei para salvar os dados do formulário em uma planilha na web, fornecida pelo Sheet Monkey em parceria com o Google Sheets, por meio de uma api.
  Link do Sheet Monkey: https://sheetmonkey.io/
+ 
+- Requisito funcional atendido: RF-15 o que um site deve oferecer a funcuibakudade de busca para permitir a localização de um text especifico.
+ 
 
 ![Fale Conosco](img/FaleConoscoPrintNew.jpg)
 
