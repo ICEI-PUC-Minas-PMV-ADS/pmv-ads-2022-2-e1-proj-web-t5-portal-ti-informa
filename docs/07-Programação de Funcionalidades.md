@@ -5,14 +5,15 @@
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
+ # André Azevedo Ferreira Carvalho:
+ Realizei a criação do menu de navegação presente em todas as paginas e o mecanismo de busca (<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/Site-beta/mecanismo de buxca.html"> Exemplificado na aba de mecanismo de busca</a></span>). Foi utilizado a linguagem HTML com suporte do Java para o funcionamento da busca
+  - Requisito funcional atendido: RF-06 O site deve permitir visualizar as informações de contato
+do mantedor do site.
 
  # Marlon Sttefane Guimarães Silva:
  Realizei a criação da aba 'Fale Conosco'. Foi utilizado a linguagem HTML com suporte do PHP para envio e salvamento do formulário.
  Por enquanto o arquivo .php não será utilizado, porque precisamos de um servidor hospedeiro para o site funcionar com o php e não o temos. Sendo assim, coloquei para salvar os dados do formulário em uma planilha na web, fornecida pelo Sheet Monkey em parceria com o Google Sheets, por meio de uma api.
  Link do Sheet Monkey: https://sheetmonkey.io/
- 
-- Requisito funcional atendido: RF-15 O site deve permitir visualizar as informações de contato
-do mantedor do site.
 
 ![Fale Conosco](img/FaleConoscoPrintNew.jpg)
 
