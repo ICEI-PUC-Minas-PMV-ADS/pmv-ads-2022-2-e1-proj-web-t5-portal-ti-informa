@@ -41,6 +41,18 @@ logo em seguida a destaque para o menu de dark, white mode:
 
 ![darkwhitedestaque](https://user-images.githubusercontent.com/114547158/201138697-d97d036f-e004-4892-ae8e-36cd912fccbf.JPG)
 
+# Daniella Souza de Oliveira:
+
+Desenvolvedor(a): DANIELLA SOUZA DE OLIVEIRA
+Foi iniciada a aba ‘cursos’ do site atendendo ao RF-07. Nessa execução tentei montar a estrutura do site que está será desenvolvida para a próxima etapa. Foram utilizadas linguagens HTML, CSS e Javascript, cujos artefatos foram cursos.html, bdcursos.js. Próximos requisitos a serem atendidos serão a responsividade e permissão da qualificação do curso. 
+
+ ![image](https://user-images.githubusercontent.com/114544326/201188740-67f3d6da-81cc-4b8a-be15-93dab5926969.png)
+![image](https://user-images.githubusercontent.com/114544326/201188764-bb4f6a10-d214-4b50-99ff-407190d6eb02.png)
+
+
+Link do código: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/Site-beta/cursos.html
+
+
 
 > **Links Úteis**:
 >
