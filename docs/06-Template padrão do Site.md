@@ -4,7 +4,7 @@
  O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente.
  ## Layout Padrão:
 ![Template Padrão](img/TemplatePadrao.jpg)
- Este é o template padrão e suas cores a serem utilizadas para todo o site, nas demais abas respectivamente.
+ Este é o template padrão e suas cores a serem utilizadas para todo o site, nas demais abas, respectivamente.
 
  O layout do site foi elaborado aplicando a responssividade, que reorganiza os elementos do site para telas menores ou janelas redimensionadas para um tamanhho menor. 
  Veja:
