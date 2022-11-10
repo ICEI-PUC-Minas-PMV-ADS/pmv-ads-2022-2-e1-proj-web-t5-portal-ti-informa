@@ -30,7 +30,7 @@ do mantedor do site.
 - Link do código fonte do arquivo externo .php: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/Site-beta/form_Faleconosco.php
 (Não usado no momento por falta de um servidor hospedeiro. Foi substituido no momento por uma planilha do Sheet Monkey/google Sheets)
 
-#MLeonardo Rodrigues Barbosa Maia:
+#Leonardo Rodrigues Barbosa Maia:
 
 Iniciei criando a funcionalidade de mudança de tema (white mode ou dark mode). Usando HTML e CSS...
 
