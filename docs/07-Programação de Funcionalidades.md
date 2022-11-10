@@ -10,7 +10,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
   - Requisito funcional atendido: RF-06 O site deve permitir visualizar as informações de contato
 do mantedor do site.
 
-- Link do código fonte da aba mecanismo de busca: (<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/Site-beta/mecanismo de buxca.html">(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/Site-beta/mecanismo de buxca.html)</a> 
+- Link do código fonte da aba (<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/Site-beta/mecanismo de buxca.html">  mecanismo de busca</a></span>)
 
 - Link do código fonte do arquivo externo .js:https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/Site-beta/js/script.js
 - 
