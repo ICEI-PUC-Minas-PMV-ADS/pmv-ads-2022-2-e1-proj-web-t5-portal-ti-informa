@@ -1,12 +1,13 @@
 # Template padrão do site
+ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente.
+ ## Layout Padrão:
+![Template Padrão](img/TemplatePadrao.jpg)
+ Este é o template padrão e suas cores a serem utilizadas para todo o site, nas demais abas respectivamente.
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+ O layout do site foi elaborado aplicando a responssividade, que reorganiza os elementos do site para telas menores ou janelas redimensionadas para um tamanhho menor. 
+ Veja:
+ ![Template Padrão](img/TemplateResponsivo.jpg)
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+ As cores de fundo/cabeçalho, logo marca, menu de navegação e cores das fontes devem ser seguidas e mantidas conforme exposto no layout padrão.
