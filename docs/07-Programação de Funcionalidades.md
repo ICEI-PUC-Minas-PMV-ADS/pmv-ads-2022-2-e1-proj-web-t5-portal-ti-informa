@@ -10,6 +10,11 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
   - Requisito funcional atendido: RF-06 O site deve permitir visualizar as informações de contato
 do mantedor do site.
 
+- Link do código fonte da aba mecanismo de busca: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/Site-beta/mecanismo de buxca.html
+
+- Link do código fonte do arquivo externo .js:https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/Site-beta/js/script.js
+- 
+
  # Marlon Sttefane Guimarães Silva:
  Realizei a criação da aba 'Fale Conosco'. Foi utilizado a linguagem HTML com suporte do PHP para envio e salvamento do formulário.
  Por enquanto o arquivo .php não será utilizado, porque precisamos de um servidor hospedeiro para o site funcionar com o php e não o temos. Sendo assim, coloquei para salvar os dados do formulário em uma planilha na web, fornecida pelo Sheet Monkey em parceria com o Google Sheets, por meio de uma api.
