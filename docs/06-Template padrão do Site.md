@@ -6,7 +6,7 @@
 ![Template Padrão](img/TemplatePadrao.jpg)
  Este é o template padrão e suas cores a serem utilizadas para todo o site, nas demais abas, respectivamente.
 
- O layout do site foi elaborado aplicando a responssividade, que reorganiza os elementos do site para telas menores ou janelas redimensionadas para um tamanhho menor. 
+ O layout do site foi elaborado aplicando a responssividade, que reorganiza os elementos do site para telas menores ou janelas redimensionadas para um tamanho menor. 
  Veja:
  ![Template Padrão](img/TemplateResponsivo.jpg)
 
