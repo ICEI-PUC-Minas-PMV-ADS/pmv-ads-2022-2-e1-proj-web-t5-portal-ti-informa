@@ -58,14 +58,19 @@ Desenvolvedor(a): Lizane Faria Rodrigues
 Realizado o desenvolvimento da Home, conforme imagem abaixo:
 ![Captura de Tela (6)](https://user-images.githubusercontent.com/114541642/201231257-be6a44fc-0ecf-47e1-b5be-60fefcb5b30a.png)
 Nesta funcionalidade foi utilizado Javascript para carregar as noticías pré carregadas assim como as noticías que ficarão armazenadas no localStorage, posteriormente será desenvolvido a funcionalidade para realizar o cadastro dessas noticías que ficarão no localStorage.
+
 branch:
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/tree/lizane/funcionalidade-home
+
 Index html:
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/lizane/funcionalidade-home/index.html
+
 script:
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/lizane/funcionalidade-home/js/index.js
+
 Noticías pré carregadas:
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/lizane/funcionalidade-home/js/noticiasPreCarregadas.js
+
 Imagens utilizadas:
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/tree/lizane/funcionalidade-home/images.
 
