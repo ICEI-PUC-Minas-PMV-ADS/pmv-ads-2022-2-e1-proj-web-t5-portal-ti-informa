@@ -39,6 +39,6 @@ var noticiaspreCarregadas = {
             "imagem": "images/netflix-microsoft.jpg",
             "conteudo": "Ainda assim, existem dúvidas a respeito de como a execução dos pontos do programa aponta para a melhoria dos índices pretendidos. <br> Ainda assim, existem dúvidas a respeito de como a execução dos pontos do programa aponta para a melhoria dos índices pretendidos.",
             "destaque": "não"
-        }            
+        }
     ]
 }

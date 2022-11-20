@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cadastro.css">
+    <script src="js/noticiasPreCarregadas.js"></script>
+    <script src="js/cadastro.js"></script>
 </head>
 
 <body onload="init()">
-    <h1>Cadastro de Notícias (CRUD)</h1>
+    <h1>Cadastro de Notícias</h1>
 
     <div class="container">
         <div class="row">
@@ -21,7 +23,7 @@
             </div>
         </div>
 
-        <form id="form-contato">
+        <form id="form-noticia">
             <div class="form-group row">
                 <div class="col-sm-2">
                     <label for="inputId">Id</label>
@@ -48,13 +50,14 @@
             <div class="form-group row">
                 <div class="col-sm-9">
                     <label for="inputImagem">Imagem (*)</label>
-                    <input type="file" class="form-control" id="inputImagem" accept='image/*'>
+                    <input type="text" class="form-control" id="inputImagem" required
+                        placeholder="Informe o caminho da imagem">
                 </div>
                 <div class="col-sm-3">
                     <label for="inputDestaque">Destaque (*)</label>
                     <select name="opcoesDestaque" id="opcoesDestaque" class="form-control">
-                        <option value="Sim" selected>Sim</option>
-                        <option value="Nao">Não</option>
+                        <option value="sim" selected>Sim</option>
+                        <option value="não">Não</option>
                     </select>
                 </div>
             </div>
@@ -98,20 +101,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="js/cadastro.js"></script>
     <script>
-        function exibeContatos() {
+        function exibirNoticias() {
             // Remove todas as linhas do corpo da tabela
-            $("#table-contatos").html("");
+            $("#table-noticias").html("");
 
             // Popula a tabela com os registros do banco de dados
             for (i = 0; i < db.data.length; i++) {
-                let contato = db.data[i];
-                $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
-                                                <td>${contato.nome}</td>
-                                                <td>${contato.telefone}</td>
-                                                <td>${contato.email}</td>
-                                                <td>${contato.cidade}</td>
-                                                <td>${contato.categoria}</td>
-                                                <td>${contato.website}</td>
+                let noticia = db.data[i];
+                $("#table-noticias").append(`<tr><td scope="row">${noticia.id}</td>
+                                                <td>${noticia.tituloNoticia}</td>
+                                                <td>${noticia.resumo}</td>
+                                                <td>${noticia.conteudo}</td>
+                                                <td>${noticia.imagem}</td>
+                                                <td>${noticia.destaque}</td>
                                             </tr>`);
             }
         }
@@ -120,32 +122,27 @@
             // Adiciona funções para tratar os eventos 
             $("#btnInsert").click(function () {
                 // Verfica se o formulário está preenchido corretamente
-                if (!$('#form-contato')[0].checkValidity()) {
+                if (!$('#form-noticia')[0].checkValidity()) {
                     displayMessage("Preencha o formulário corretamente.");
                     return;
                 }
 
                 // Obtem os valores dos campos do formulário
-                let campoNome = $("#inputTitulo").val();
-                let campoTelefone = $("#inputTelefone").val();
-                let campoEmail = $('#inputEmail').val();
-                let campoCidade = $("#inputCidade").val();
-                let campoCategoria = $('#inputCategoria').val();
-                let contato = {
-                    nome: campoNome,
-                    telefone: campoTelefone,
-                    email: campoEmail,
-                    cidade: campoCidade,
-                    categoria: campoCategoria
+                let noticia = {
+                    tituloNoticia:  $("#inputTitulo").val(),
+                    resumo:  $("#inputResumo").val(),
+                    conteudo:  $("#inputConteudo").val(),
+                    imagem: $("#inputImagem").val(),
+                    destaque:  $("#opcoesDestaque").val(),
                 };
 
-                insertContato(contato);
+                inserirNoticia(noticia);
 
                 // Reexibe os contatos
-                exibeContatos();
+                exibirNoticias();
 
                 // Limpa o formulario
-                $("#form-contato")[0].reset();
+                $("#form-noticia")[0].reset();
             });
 
             // Intercepta o click do botão Alterar
@@ -156,26 +153,22 @@
                     displayMessage("Selecione um contato para ser alterado.");
                     return;
                 }
-                let campoNome = $("#inputTitulo").val();
-                let campoTelefone = $("#inputTelefone").val();
-                let campoEmail = $("#inputEmail").val();
-                let campoCidade = $("#inputCidade").val();
-                let campoCategoria = $("#inputCategoria").val();
-                let contato = {
-                    nome: campoNome,
-                    telefone: campoTelefone,
-                    email: campoEmail,
-                    cidade: campoCidade,
-                    categoria: campoCategoria,
+                let noticia = {
+                    tituloNoticia:  $("#inputTitulo").val(),
+                    resumo:  $("#inputResumo").val(),
+                    conteudo:  $("#inputConteudo").val(),
+                    imagem: $("#inputImagem").val(),
+                    destaque:  $("#opcoesDestaque").val(),
                 };
 
-                updateContato(parseInt(campoId), contato);
+
+                updateNoticia(parseInt(campoId), noticia);
 
                 // Reexibe os contatos
-                exibeContatos();
+                exibirNoticias();
 
                 // Limpa o formulario
-                $("#form-contato")[0].reset();
+                $("#form-noticia")[0].reset();
             });
 
             // Intercepta o click do botão Excluir
@@ -185,18 +178,18 @@
                     displayMessage("Selecione um contato a ser excluído.");
                     return;
                 }
-                deleteContato(parseInt(campoId));
+                deleteNoticia(parseInt(campoId));
 
                 // Reexibe os contatos
-                exibeContatos();
+                exibirNoticias();
 
                 // Limpa o formulario
-                $("#form-contato")[0].reset();
+                $("#form-noticia")[0].reset();
             });
 
             // Intercepta o click do botão Listar Contatos
             $("#btnClear").click(function () {
-                $("#form-contato")[0].reset();
+                $("#form-noticia")[0].reset();
             });
 
             // Oculta a mensagem de aviso após alguns segundos
@@ -209,19 +202,19 @@
             });
 
             // Preenche o formulário quando o usuario clicar em uma linha da tabela 
-            $("#grid-contatos").on("click", "tr", function (e) {
+            $("#grid-noticias").on("click", "tr", function (e) {
                 let linhaContato = this;
                 colunas = linhaContato.querySelectorAll("td");
 
                 $("#inputId").val(colunas[0].innerText);
                 $("#inputTitulo").val(colunas[1].innerText);
-                $("#inputTelefone").val(colunas[2].innerText);
-                $("#inputEmail").val(colunas[3].innerText);
-                $("#inputCidade").val(colunas[4].innerText);
-                $("#inputCategoria").val(colunas[5].innerText);
+                $("#inputResumo").val(colunas[2].innerText);
+                $("#inputConteudo").val(colunas[3].innerText);
+                $("#inputImagem").val(colunas[4].innerText);
+                $("#opcoesDestaque").val(colunas[5].innerText);
             });
 
-            exibeContatos();
+            exibirNoticias();
         }
     </script>
 </body>
