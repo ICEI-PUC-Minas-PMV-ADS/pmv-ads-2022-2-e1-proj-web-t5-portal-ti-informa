@@ -12,4 +12,5 @@ function search_news() {
             x[i].style.display="list-item";                 
         }
     }
+
 }
