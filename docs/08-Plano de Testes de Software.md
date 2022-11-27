@@ -10,6 +10,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 Elaborei para as funcionalidades Index e Gerenciamento de notícia (Inserir, Alterar, Excluir) os seguintes casos de testes:
 
 Caso de testes 1:
+<br />
 Objetivo: testar a funcionalidade inserir quando a notícia for destaque;
 Título: Amazon com problemas
 Resumo: É claro que a contínua expansão de nossa atividade afeta positivamente a correta previsão dos índices pretendidos.
