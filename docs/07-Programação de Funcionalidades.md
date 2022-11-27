@@ -74,6 +74,22 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-t
 Imagens utilizadas:
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/tree/lizane/funcionalidade-home/images.
 
+Foi realizado o cadastro das funcionalidades como inserir, alterar, excluir.
+![image](https://user-images.githubusercontent.com/114541642/204165435-5e1a4124-a4c6-47ea-856f-6c20cea3dc8b.png)
+
+Foi implementado uma regra de negócio apenas 1 notícia será considerado como destaque.
+A função inserir salva notícia no localStorage.
+A função alterar altera a notícia que está localizada no localStorage.
+A função excluir remove uma notícia que está localizada no localStorage.
+
+Cadastro html:
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/lizane/funcionalidade-home/
+
+Cadastro JS:
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/lizane/funcionalidade-home/js/cadastro.js
+
+Cadastro CSS:
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/blob/lizane/funcionalidade-home/css/cadastro.css
 
 
 
