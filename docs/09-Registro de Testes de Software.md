@@ -191,6 +191,19 @@ Ação: acessar tela de home e não exibir nenhuma notícia.
 <br />
 Resultado esperado: não exibir nenhuma notícia.
 <br />
+Saída real do sistema: não visualizar nenhuma notícia conforme evidências abaixo:
+<br />
+
+Evidência 1: não visualizar nenhuma notícia cadastrada na home:
+
+![image](https://user-images.githubusercontent.com/114541642/204169749-35731047-65e8-4c25-9766-7b786d94f759.png)
+
+<br />
+
+Evidência 2: não visualizar nenhuma nortícia cadastrada.
+
+![image](https://user-images.githubusercontent.com/114541642/204169876-4d345a95-72e7-409d-8df4-1584435f90c2.png)
+
 
 
 ## Avaliação
