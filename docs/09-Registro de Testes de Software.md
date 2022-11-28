@@ -388,50 +388,13 @@ Pagína: Portal TI <br />
 
 # Daniella Souza de Oliveira
 
-Funcionalidades	Funcionalidade	Campos	Obrigatório	Tipo	Tamanho	Editável	Permite Caracteres especiais
-Ter acesso ao cadastro dos cursos	Cadastro de cursos	Administrador	Sim	Alfa numérico	N/A	Sim	Não
-		Senha	Sim	Alfa numérico		Sim	Sim
-		Enviar	Sim	N/A	N/A	N/A	N/A
-		Cancelar	Não	N/A	N/A	N/A	N/A
-		Inserir	Não	N/A	N/A	N/A	N/A
-		Alterar	Não	N/A	N/A	N/A	N/A
-		Excluir	Não	N/A	N/A	N/A	N/A
-		Limpar	Não	N/A	N/A	N/A	N/A
-		Pesquisar	Não	N/A	N/A	N/A	N/A
+![image](https://user-images.githubusercontent.com/114544326/204178382-8970ed68-00a8-4825-a327-e88a602abfd7.png)
 
-Realizado teste na funcionalidade de cadastro do curso através de formulário, pelo administrador. Observa-se que o site responde a todos os comandos de inclusão, alteração, exclusão, limpeza e pesquisa.
-Caso de testes 10: Testar a funcionalidade
-Objetivo: Testar cadastro de cursos no site
-Curso : Cadastro dos cursos pelos administradores
-Saída esperada: Cadastro de cursos pelo formulário
-Pagína: Portal TI
+![image](https://user-images.githubusercontent.com/114544326/204178466-ec5594ef-0c3a-454e-970d-427487a40db6.png)
 
- 
- 
- 
- 
- 
+![image](https://user-images.githubusercontent.com/114544326/204178548-d186bdfe-fe86-4aad-ba2b-b1829dbd2dc6.png)
 
-Funcionalidades	Funcionalidade	Campos	Obrigatório	Tipo	Tamanho	Editável	Permite Caracteres especiais
-Ter acesso a vídeos de cursos	Direcionamento a cursos	N/A	Não	N/A	N/A	Não	N/A
-
-Realizado teste na funcionalidade de direcionamento do curso para a página informada.
-Caso de testes 9: Testar a funcionalidade
-Objetivo: Direcionamento para curso específicos publicados
-Curso : Feito no link do curso
-Saída esperada: Site direcionado a cursos
-Pagína: Portal TI
-
- 
-Funcionalidades	Funcionalidade	Campos	Obrigatório	Tipo	Tamanho	Editável	Permite Caracteres especiais
-Avaliação de vídeo	Likes	Usuário	Não	N/A	N/A	Não	N/A
-
-Realizado teste na funcionalidade de avaliação do curso pelo usuário através de Likes.
-Caso de testes 11: Testar a funcionalidade
-Objetivo: Permitir o usuário avaliar o curso
-Curso: Botão de Like
-Saída esperada: Contagem de likes
-Pagína: Portal TI
+![image](https://user-images.githubusercontent.com/114544326/204178624-3f3bb238-0b25-4207-9fc0-75106b06df52.png)
 
 
 
