@@ -6,6 +6,112 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
 
+Foram feitos os seguintes testes:
+
+Anderson: Responsável pela navegabilidade do link notícias
+André: responsável pelos testes no retorno da ferramenta de busca
+Leonardo: Responsável pelo teste de responsividade
+Daniella: Responsável pelos testes de acesso a vídeos de cursos, cadastro dos cursos, likes dos cursos.
+Luiz: Responsável pelo formulário de pesquisa.
+Marlon: Responsável pelos testes de inserção de dados e envio do formulário do Fale Conosco.
+
+
+Anderson Rodrigo Vilaça Baia:
+Caso de testes 1: 
+Objetivo: Testar a funcionalidade Navegabilidade 
+Notícias : Feito no link das notícias
+Acesso a Notícias: Acesso feito na página oficial 
+
+Leonardo Rodrigues Barbosa Maia:
+Caso de testes 2: 
+Objetivo: Testar a funcionalidade Responsividade
+Pagína : Feito na página do site Portal TI
+Pagína: Portal TI
+
+Marlon Sttefane Guimarães Silva:
+Caso de testes 3:
+Objetivo: Testar Campos de Texto e Envio do Formulário na Página Fale Conosco.
+Formulário : Testar se foi feito o envio correto dos dados/informações inseridas.
+Pagína: Fale Conosco
+Saída esperada: Formulário enviado com sucesso!
+Saída real do sistema: Your form was successfully submitted.
+Registro da execução: Campos de texto inseridos e formulário enviado normalmente.
+
+Caso de testes 4: 
+Objetivo: Testar Campos e páginas
+Cadastro : Testar se o endereço (cep) foi inserido corretamente
+Pagína: Portal TI
+
+Caso de testes 5: 
+Objetivo: Testar Campos e páginas
+Cadastro : Testar se o telefone foi inserido corretamente
+Inteiros teste feito com valores validos e invalidos
+Pagína: Portal TI
+
+Caso de testes 6: 
+Objetivo: Testar Campos e páginas
+Cadastro : Testar se o CPF foi inserido corretamente
+Inteiros teste feito com valores validos e invalidos .
+Pagína: Portal TI
+
+Caso de testes 7: 
+Objetivo: Testar Campos e páginas
+Cadastro : Testar se a data de nascimento foi inserida corretamente 
+Inteiros teste feito com valores validos e invalidos .
+Pagína: Portal TI
+
+Caso de testes 8: 
+Objetivo: Testar Campos e páginas
+Cadastro : Testar se o endereço de email foi i nserido corretamente
+Inteiros string.
+Pagína: Portal TI
+
+Daniella Souza de Oliveira:
+Caso de testes 9: Testar a funcionalidade
+Objetivo: Direcionamento para curso específicos publicados
+Curso : Feito no link do curso
+Saída esperada: Site direcionado a cursos
+Pagína: Portal TI
+
+Caso de testes 10: Testar a funcionalidade
+Objetivo: Testar cadastro de cursos no site
+Curso : Cadastro dos cursos pelos administradores
+Saída esperada: Cadastro de cursos pelo formulário
+Pagína: Portal TI
+
+Caso de testes 11: Testar a funcionalidade
+Objetivo: Permitir o usuário avaliar o curso
+Curso: Botão de Like
+Saída esperada: Contagem de likes
+Pagína: Portal TI
+
+Andre Azevedo Ferreira Carvalho:
+Caso de testes 12: Testar retorno de busca
+Objetivo: Permitir o usuário faça busca
+Curso: Busca no site
+Saída esperada: Busca em todo site
+Pagína: Portal TI
+
+Luiz Gustavo Pires Pereira:
+Caso de testes 13: 
+Objetivo: Testar Campos e páginas
+Cadastro : Testar se o nome foi inserido corretamente
+Pagína: Portal TI
+
+Caso de testes 14: 
+Objetivo: Testar Campos e páginas
+Cadastro : Testar se o e-mail foi inserido corretamente
+Inteiros teste feito com valores validos e invalidos
+Pagína: Portal TI
+ 
+Caso de testes 15: 
+Objetivo: Testar Campos e páginas
+Cadastro : Testar se o campo “Qual opção se encaixa em você?” foi inserido corretamente
+Inteiros teste feito com valores validos e invalidos
+Pagína: Portal TI
+
+
+
 # Lizane Faria Rodrigues
 Elaborei para as funcionalidades Index e Gerenciamento de notícia (Inserir, Alterar, Excluir) os seguintes casos de testes:
 
