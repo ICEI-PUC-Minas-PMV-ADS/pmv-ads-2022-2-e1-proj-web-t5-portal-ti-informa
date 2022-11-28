@@ -140,7 +140,7 @@ Evidência 2: tela de home listando notícias
 
 ![image](https://user-images.githubusercontent.com/114541642/204167460-332d36fd-28b5-4fa6-b7bd-a3c011114818.png)
 
-
+<br />
 
 Caso de testes 10:
 <br />
@@ -149,6 +149,16 @@ Objetivo: listar apenas notícia em destaque
 Ação: acessar tela de home e aguardar notícia destaque carregar.
 <br />
 Resultado esperado: exibir notícia em destaque.
+<br />
+Saída real do sistema: exibir  notícia em destaque cadastradas conforme evidências abaixo:
+<br />
+Evidência 1: notícia cadastrada em destaque:
+![image](https://user-images.githubusercontent.com/114541642/204168420-38bd578a-06ad-4f9d-86b0-5e3e9491fe1b.png)
+
+<br />
+Evidência 2: tela de home cadstrada com notícia destaque:
+![image](https://user-images.githubusercontent.com/114541642/204168563-267de361-6762-43c5-916d-7964940e15e9.png)
+
 <br />
 
 Caso de testes 11:
