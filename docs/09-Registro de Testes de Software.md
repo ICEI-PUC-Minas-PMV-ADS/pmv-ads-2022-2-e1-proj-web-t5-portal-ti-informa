@@ -137,7 +137,9 @@ Evidência 1: Notícias cadastradas
 
 <br />
 Evidência 2: tela de home listando notícias
-![image](https://user-images.githubusercontent.com/114541642/204167381-d48ed406-ed5c-4997-ae18-7a11fc04d4af.png)
+
+![image](https://user-images.githubusercontent.com/114541642/204167460-332d36fd-28b5-4fa6-b7bd-a3c011114818.png)
+
 
 
 Caso de testes 10:
