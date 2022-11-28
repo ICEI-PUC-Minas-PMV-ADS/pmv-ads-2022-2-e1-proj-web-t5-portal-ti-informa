@@ -118,8 +118,13 @@ Objetivo: testar a funcionalidade excluir
 <br />
 Ação: selecionar uma notícia e realizar a exclusão 
 <br />
-Resultado esperado:  a notícia deve ser excluída.
+Resultado esperado: a notícia deve ser excluída.
 <br />
+Saída real do sistema: Notícia de Id 2 excluída
+<br />
+Evidência: Notificação de exclusão de imagem e listagem de demais notícias 
+![_C__git_pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa_cadastro html (5)](https://user-images.githubusercontent.com/114541642/204172082-91fa4b81-f6d2-4386-88b6-10e696e5a3dc.png)
+
 
 Caso de testes 7:
 <br />
@@ -129,6 +134,12 @@ Ação: limpar os campos.
 <br />
 Resultado esperado: ao preencher uma notícia e realizar a ação de limpar form o formulário deve ser limpo.
 <br />
+Saída real do sistema: após realizar a ação de limpar o form o mesmo limpou todos os campos preenchidos
+<br />
+Evidência: Formulário limpo conforme executado a ação. 
+![image](https://user-images.githubusercontent.com/114541642/204172203-b6f10bef-11d1-46a8-b7e1-1dbbed080c84.png)
+
+
 
 Caso de testes 8:
 <br />
@@ -138,6 +149,11 @@ Ação: tentar salvar sem preencher os campos obrigatórios.
 <br />
 Resultado esperado: preencha o formulário corretamente.
 <br />
+Saída real do sistema: sistema notificou que é necessário que "preencha o formulário corretamente".
+<br />
+Evidência: Sistema exibindo mensagem de erro 
+![image](https://user-images.githubusercontent.com/114541642/204172318-0210d067-4427-429f-85e5-f5e3f959e082.png)
+
 
 Caso de testes 9:
 <br />
