@@ -131,6 +131,9 @@ Ação: listar conteúdo na página principal.
 Resultado esperado: carregar notícia em destaque e demais notícias.
 <br />
 
+![_C__git_pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa_cadastro html](https://user-images.githubusercontent.com/114541642/204167112-29c8b835-c459-496f-8804-ae5bf8314058.png)
+
+
 Caso de testes 10:
 <br />
 Objetivo: listar apenas notícia em destaque
