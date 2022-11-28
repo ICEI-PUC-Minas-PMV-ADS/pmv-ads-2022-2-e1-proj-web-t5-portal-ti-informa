@@ -32,7 +32,7 @@ do mantedor do site.
 
 # Leonardo Rodrigues Barbosa Maia:
 
-Iniciei criando a funcionalidade de mudança de tema (white mode ou dark mode). Usando HTML, CSS e javascript. Porém, tive dificuldades em fazer o menu se tornar 100% funcional utilizando as 3 tecnologias. Estou procurando uma melhor forma de executar e entregar até a proxima etapa.
+Iniciei desenvolvendo a funcionalidade de mudança de tema (white mode ou dark mode). Usando HTML, CSS e javascript. Porém, me deparei com dificuldades em fazer o menu se tornar 100% funcional utilizando as 3 tecnologias. Estou procurando uma melhor forma de executar e entregar até a proxima etapa.
 a seguir a imagem da pagina como um todo, com atenção ao menu do tema dark, white mode, no canto direito:
 
 ![Slide1](https://user-images.githubusercontent.com/114547158/201138314-786a0a2b-b68e-420a-81f6-f324935407d8.JPG)
