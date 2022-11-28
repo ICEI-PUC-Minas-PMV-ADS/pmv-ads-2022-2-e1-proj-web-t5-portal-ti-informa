@@ -388,13 +388,13 @@ Pagína: Portal TI <br />
 
 # Daniella Souza de Oliveira
 
-![image](https://user-images.githubusercontent.com/114544326/204178382-8970ed68-00a8-4825-a327-e88a602abfd7.png)
+![image](https://user-images.githubusercontent.com/114544326/204179029-d12e603c-d287-45a9-8232-a1d95d0eb9fe.png)
 
-![image](https://user-images.githubusercontent.com/114544326/204178466-ec5594ef-0c3a-454e-970d-427487a40db6.png)
+![image](https://user-images.githubusercontent.com/114544326/204179081-811c586d-e8a2-43df-bad1-e257a21591a5.png)
 
-![image](https://user-images.githubusercontent.com/114544326/204178548-d186bdfe-fe86-4aad-ba2b-b1829dbd2dc6.png)
+![image](https://user-images.githubusercontent.com/114544326/204179108-c13b5e62-45b0-4bf5-a928-4e8b656fd615.png)
 
-![image](https://user-images.githubusercontent.com/114544326/204178624-3f3bb238-0b25-4207-9fc0-75106b06df52.png)
+![image](https://user-images.githubusercontent.com/114544326/204179147-8ec1b2a3-b5ff-4f1b-ba77-a68255e5c614.png)
 
 
 
