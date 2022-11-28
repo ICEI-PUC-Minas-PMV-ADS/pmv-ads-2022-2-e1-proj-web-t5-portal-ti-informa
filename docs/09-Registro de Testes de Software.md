@@ -170,6 +170,18 @@ Ação: acessar tela de home e aguardar notícia que não é destaque carregar.
 <br />
 Resultado esperado: exibir notícia que não é destaque.
 <br />
+Saída real do sistema: exibir notícia que não é  destaque cadastradas conforme evidências abaixo:
+<br />
+
+Evidência 1: visualização de notícias que não são destaques na home:
+![image](https://user-images.githubusercontent.com/114541642/204169205-122c6471-da47-49ef-9c78-842335f30caf.png)
+<br />
+
+Evidência 2: visualização de notícias que não é destaque:
+
+![_C__git_pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa_cadastro html (2)](https://user-images.githubusercontent.com/114541642/204169352-8f6d3638-a812-4fe0-a2b6-45881d3923b5.png)
+
+<br />
 
 Caso de testes 12:
 <br />
