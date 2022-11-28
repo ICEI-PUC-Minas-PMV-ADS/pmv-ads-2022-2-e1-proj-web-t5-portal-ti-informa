@@ -26,6 +26,7 @@ Destaque: Sim
 <br />
 Resultado esperado: notícia em destaque cadastrada com sucesso.
 <br />
+
 Caso de testes 2:
 <br />
 Objetivo: testar a funcionalidade inserir quando a notícia não 
