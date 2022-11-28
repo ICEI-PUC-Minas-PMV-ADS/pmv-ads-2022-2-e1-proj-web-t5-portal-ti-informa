@@ -26,7 +26,7 @@ Acesso a Notícias: Acesso feito na página oficial
 
 # Leonardo Rodrigues Barbosa Maia:
 
-Caso de testes 2: 
+Caso de testes 1: 
 Objetivo: Testar a funcionalidade Responsividade
 Pagína : Feito na página do site Portal TI
 Pagína: Portal TI
