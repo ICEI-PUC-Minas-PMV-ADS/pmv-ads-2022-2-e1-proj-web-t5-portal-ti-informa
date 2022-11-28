@@ -34,7 +34,7 @@ Pagína: Portal TI
 
 # Marlon Sttefane Guimarães Silva:
 
-Caso de testes 3:
+Caso de testes 1:
 Objetivo: Testar Campos de Texto e Envio do Formulário na Página Fale Conosco.
 Formulário : Testar se foi feito o envio correto dos dados/informações inseridas.
 Pagína: Fale Conosco
@@ -42,51 +42,28 @@ Saída esperada: Formulário enviado com sucesso!
 Saída real do sistema: Your form was successfully submitted.
 Registro da execução: Campos de texto inseridos e formulário enviado normalmente.
 
-Caso de testes 4: 
-Objetivo: Testar Campos e páginas
-Cadastro : Testar se o endereço (cep) foi inserido corretamente
-Pagína: Portal TI
-
-Caso de testes 5: 
-Objetivo: Testar Campos e páginas
-Cadastro : Testar se o telefone foi inserido corretamente
-Inteiros teste feito com valores validos e invalidos
-Pagína: Portal TI
-
-Caso de testes 6: 
-Objetivo: Testar Campos e páginas
-Cadastro : Testar se o CPF foi inserido corretamente
-Inteiros teste feito com valores validos e invalidos .
-Pagína: Portal TI
-
-Caso de testes 7: 
-Objetivo: Testar Campos e páginas
-Cadastro : Testar se a data de nascimento foi inserida corretamente 
-Inteiros teste feito com valores validos e invalidos .
-Pagína: Portal TI
-
-Caso de testes 8: 
-Objetivo: Testar Campos e páginas
-Cadastro : Testar se o endereço de email foi i nserido corretamente
-Inteiros string.
-Pagína: Portal TI
+Caso de testes 2: 
+Objetivo: Testar Campos da página
+Cadastro : Testar se campos obrigatórios são solicitados corretamente.
+Pagína: Fale Conosco
+Registro da execução: O teste obteve êxito!
 
 
 # Daniella Souza de Oliveira:
 
-Caso de testes 9: Testar a funcionalidade
+Caso de testes 1: Testar a funcionalidade
 Objetivo: Direcionamento para curso específicos publicados
 Curso : Feito no link do curso
 Saída esperada: Site direcionado a cursos
 Pagína: Portal TI
 
-Caso de testes 10: Testar a funcionalidade
+Caso de testes 2: Testar a funcionalidade
 Objetivo: Testar cadastro de cursos no site
 Curso : Cadastro dos cursos pelos administradores
 Saída esperada: Cadastro de cursos pelo formulário
 Pagína: Portal TI
 
-Caso de testes 11: Testar a funcionalidade
+Caso de testes 3: Testar a funcionalidade
 Objetivo: Permitir o usuário avaliar o curso
 Curso: Botão de Like
 Saída esperada: Contagem de likes
@@ -95,7 +72,7 @@ Pagína: Portal TI
 
 # Andre Azevedo Ferreira Carvalho:
 
-Caso de testes 12: Testar retorno de busca
+Caso de testes 1: Testar retorno de busca
 Objetivo: Permitir o usuário faça busca
 Curso: Busca no site
 Saída esperada: Busca em todo site
@@ -104,18 +81,18 @@ Pagína: Portal TI
 
 # Luiz Gustavo Pires Pereira:
 
-Caso de testes 13: 
+Caso de testes 1: 
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o nome foi inserido corretamente
 Pagína: Portal TI
 
-Caso de testes 14: 
+Caso de testes 2: 
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o e-mail foi inserido corretamente
 Inteiros teste feito com valores validos e invalidos
 Pagína: Portal TI
  
-Caso de testes 15: 
+Caso de testes 3: 
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o campo “Qual opção se encaixa em você?” foi inserido corretamente
 Inteiros teste feito com valores validos e invalidos
@@ -278,15 +255,4 @@ Resultado esperado: não exibir nenhuma notícia.
 <br />
 
 
-## Ferramentas de Testes (Opcional)
-
-
-Comente sobre as ferramentas de testes utilizadas.
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
