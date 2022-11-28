@@ -130,8 +130,14 @@ Ação: listar conteúdo na página principal.
 <br />
 Resultado esperado: carregar notícia em destaque e demais notícias.
 <br />
-
+Saída real do sistema: listado todas notícias cadastradas conforme evidências abaixo:
+<br />
+Evidência 1: Notícias cadastradas
 ![_C__git_pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa_cadastro html](https://user-images.githubusercontent.com/114541642/204167112-29c8b835-c459-496f-8804-ae5bf8314058.png)
+
+<br />
+Evidência 2: tela de home listando notícias
+![image](https://user-images.githubusercontent.com/114541642/204167381-d48ed406-ed5c-4997-ae18-7a11fc04d4af.png)
 
 
 Caso de testes 10:
