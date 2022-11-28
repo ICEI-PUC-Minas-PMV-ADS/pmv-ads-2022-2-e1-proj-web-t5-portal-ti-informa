@@ -86,8 +86,8 @@ Evidência 1: notícia de ID 2 já cadastrada.
 
 <br />
 Evidência 2: notícia de ID 2 atualizada: 
-![_C__git_pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa_cadastro html (3)](https://user-images.githubusercontent.com/114541642/204171579-52153944-59b8-440b-b12d-8eaaa18f5026.png)
 
+![_C__git_pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa_cadastro html (3)](https://user-images.githubusercontent.com/114541642/204171579-52153944-59b8-440b-b12d-8eaaa18f5026.png)
 
 Caso de testes 5:
 <br />
