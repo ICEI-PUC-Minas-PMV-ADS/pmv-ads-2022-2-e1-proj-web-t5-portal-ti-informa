@@ -25,6 +25,7 @@ Destaque: Sim
 Resultado esperado: notícia em destaque cadastrada com sucesso.
 <br />
 
+
 Caso de testes 2:
 <br />
 Objetivo: testar a funcionalidade inserir quando a notícia não 
@@ -77,6 +78,16 @@ Destaque: não
 <br />
 Resultado esperado: após alterar deve ser visualizado um novo conteúdo nos campos alterados.
 <br />
+Saída real do sistema: depois que alterar deve ser visualizado um conteúdo novo no campo alterar conforme evidência abaixo:
+<br />
+Evidência 1: notícia de ID 2 já cadastrada. 
+<br />
+![_C__git_pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa_cadastro html](https://user-images.githubusercontent.com/114541642/204171440-e7b3285a-8809-4a42-a6d9-c096a7ecab02.png)
+
+<br />
+Evidência 2: notícia de ID 2 atualizada: 
+![_C__git_pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa_cadastro html (3)](https://user-images.githubusercontent.com/114541642/204171579-52153944-59b8-440b-b12d-8eaaa18f5026.png)
+
 
 Caso de testes 5:
 <br />
@@ -94,6 +105,12 @@ Destaque: sim
 <br />
 Resultado esperado: Não é possível mais de uma notícia como destaque. 
 <br />
+Saída real do sistema: Exibido mensagem de erro Não é possível mais de uma notícia como destaque.
+<br />
+
+Evidência: exibido mensagem de erro 
+![image](https://user-images.githubusercontent.com/114541642/204171790-2929610a-0760-4c4b-88c0-f70d8d16d746.png)
+
 
 Caso de testes 6:
 <br />
