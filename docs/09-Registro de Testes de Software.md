@@ -76,6 +76,10 @@ Destaque: Sim
 <br />
 Resultado esperado: Não é possível mais de uma notícia como destaque.
 <br />
+Saída real do sistema: Sistema notificou erro "Não é possível mais de uma notícia como destaque."
+<br />
+Evidência:
+![image](https://user-images.githubusercontent.com/114541642/204173319-125e66bd-b624-4100-b9e1-154188598627.png)
 
 Caso de testes 4:
 <br />
