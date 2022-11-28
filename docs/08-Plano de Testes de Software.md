@@ -6,17 +6,17 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
 
-Foram feitos os seguintes testes:
+Foram responsáveis pelos seguintes casos de testes:
 
-Anderson: Responsável pela navegabilidade do link notícias
-André: responsável pelos testes no retorno da ferramenta de busca
-Leonardo: Responsável pelo teste de responsividade
-Daniella: Responsável pelos testes de acesso a vídeos de cursos, cadastro dos cursos, likes dos cursos.
-Luiz: Responsável pelo formulário de pesquisa.
+Anderson: Responsável pela navegabilidade do link notícias;
+André: responsável pelos testes no retorno da ferramenta de busca;
+Leonardo: Responsável pelo teste de responsividade;
+Daniella: Responsável pelos testes de acesso a vídeos de cursos, cadastro dos cursos, likes dos cursos;
+Luiz: Responsável pelo formulário de pesquisa;
 Marlon: Responsável pelos testes de inserção de dados e envio do formulário do Fale Conosco.
 
 
-Anderson Rodrigo Vilaça Baia:
+# Anderson Rodrigo Vilaça Baia:
 
 Caso de testes 1: 
 Objetivo: Testar a funcionalidade Navegabilidade 
@@ -24,7 +24,7 @@ Notícias : Feito no link das notícias
 Acesso a Notícias: Acesso feito na página oficial 
 
 
-Leonardo Rodrigues Barbosa Maia:
+# Leonardo Rodrigues Barbosa Maia:
 
 Caso de testes 2: 
 Objetivo: Testar a funcionalidade Responsividade
@@ -32,7 +32,7 @@ Pagína : Feito na página do site Portal TI
 Pagína: Portal TI
 
 
-Marlon Sttefane Guimarães Silva:
+# Marlon Sttefane Guimarães Silva:
 
 Caso de testes 3:
 Objetivo: Testar Campos de Texto e Envio do Formulário na Página Fale Conosco.
@@ -72,7 +72,7 @@ Inteiros string.
 Pagína: Portal TI
 
 
-Daniella Souza de Oliveira:
+# Daniella Souza de Oliveira:
 
 Caso de testes 9: Testar a funcionalidade
 Objetivo: Direcionamento para curso específicos publicados
@@ -93,7 +93,7 @@ Saída esperada: Contagem de likes
 Pagína: Portal TI
 
 
-Andre Azevedo Ferreira Carvalho:
+# Andre Azevedo Ferreira Carvalho:
 
 Caso de testes 12: Testar retorno de busca
 Objetivo: Permitir o usuário faça busca
@@ -102,7 +102,7 @@ Saída esperada: Busca em todo site
 Pagína: Portal TI
 
 
-Luiz Gustavo Pires Pereira:
+# Luiz Gustavo Pires Pereira:
 
 Caso de testes 13: 
 Objetivo: Testar Campos e páginas
