@@ -157,6 +157,7 @@ Evidência 1: notícia cadastrada em destaque:
 
 <br />
 Evidência 2: tela de home cadstrada com notícia destaque:
+
 ![image](https://user-images.githubusercontent.com/114541642/204168563-267de361-6762-43c5-916d-7964940e15e9.png)
 
 <br />
