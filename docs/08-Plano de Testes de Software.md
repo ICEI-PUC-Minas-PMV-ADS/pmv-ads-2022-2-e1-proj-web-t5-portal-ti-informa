@@ -17,18 +17,23 @@ Marlon: Responsável pelos testes de inserção de dados e envio do formulário 
 
 
 Anderson Rodrigo Vilaça Baia:
+
 Caso de testes 1: 
 Objetivo: Testar a funcionalidade Navegabilidade 
 Notícias : Feito no link das notícias
 Acesso a Notícias: Acesso feito na página oficial 
 
+
 Leonardo Rodrigues Barbosa Maia:
+
 Caso de testes 2: 
 Objetivo: Testar a funcionalidade Responsividade
 Pagína : Feito na página do site Portal TI
 Pagína: Portal TI
 
+
 Marlon Sttefane Guimarães Silva:
+
 Caso de testes 3:
 Objetivo: Testar Campos de Texto e Envio do Formulário na Página Fale Conosco.
 Formulário : Testar se foi feito o envio correto dos dados/informações inseridas.
@@ -66,7 +71,9 @@ Cadastro : Testar se o endereço de email foi i nserido corretamente
 Inteiros string.
 Pagína: Portal TI
 
+
 Daniella Souza de Oliveira:
+
 Caso de testes 9: Testar a funcionalidade
 Objetivo: Direcionamento para curso específicos publicados
 Curso : Feito no link do curso
@@ -85,14 +92,18 @@ Curso: Botão de Like
 Saída esperada: Contagem de likes
 Pagína: Portal TI
 
+
 Andre Azevedo Ferreira Carvalho:
+
 Caso de testes 12: Testar retorno de busca
 Objetivo: Permitir o usuário faça busca
 Curso: Busca no site
 Saída esperada: Busca em todo site
 Pagína: Portal TI
 
+
 Luiz Gustavo Pires Pereira:
+
 Caso de testes 13: 
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o nome foi inserido corretamente
