@@ -257,19 +257,19 @@ Evidência 2: não visualizar nenhuma nortícia cadastrada.
 ![image](https://user-images.githubusercontent.com/114541642/204169876-4d345a95-72e7-409d-8df4-1584435f90c2.png)
 
 
-<br>
+<br />
 Caso de testes 13:
 Objetivo: Testar a funcionalidade Navegabilidade
 Notícias : Feito no link das notícias
 Ascesso a Notícias: Ascesso feito na página oficial
 
-<br>
+<br />
 Caso de testes 14:
 Objetivo: Testar a funcionalidade Responsividade
 Pagína : Feito na página do site Portal TI
 Pagína: Portal TI
 
-<br>
+<br />
 Caso de testes 15:
 Objetivo: Testar Campos de Texto e Envio do Formulário na Página Fale Conosco.
 Formulário : Testar se foi feito o envio correto dos dados/informações inseridas.
@@ -278,62 +278,62 @@ Saída esperada: Formulário enviado com sucesso!
 Saída real do sistema: Your form was successfully submitted.
 Registro da execução: Campos de texto inseridos e formulário enviado normalmente.
 
-<br>
+<br />
 Caso de testes 16:
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o endereço (cep) foi inserido corretamente
 Pagína: Portal TI
 
-<br>
+<br />
 Caso de testes 17:
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o telefone foi inserido corretamente
 Inteiros teste feito com valores validos e invalidos
 Pagína: Portal TI
 
-<br>
+<br />
 Caso de testes 18:
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o CPF foi inserido corretamente
 Inteiros teste feito com valores validos e invalidos .
 Pagína: Portal TI
 
-<br>
+<br />
 Caso de testes 19:
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se a data de nascimento foi inserida corretamente
 Inteiros teste feito com valores validos e invalidos .
 Pagína: Portal TI
 
-<br>
+<br />
 Caso de testes 20:
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o endereço de email foi i nserido corretamente
 Inteiros string.
 Pagína: Portal TI
 
-<br>
+<br />
 Caso de testes 21: Testar a funcionalidade
 Objetivo: Direcionamento para curso específicos publicados
 Curso : Feito no link do curso
 Saída esperada: Site direcionado a cursos
 Pagína: Portal TI
 
-<br>
+<br />
 Caso de testes 22: Testar a funcionalidade
 Objetivo: Testar cadastro de cursos no site
 Curso : Cadastro dos cursos pelos administradores
 Saída esperada: Cadastro de cursos pelo formulário
 Pagína: Portal TI
 
-<br>
+<br />
 Caso de testes 23: Testar a funcionalidade
 Objetivo: Permitir o usuário avaliar o curso
 Curso: Botão de Like
 Saída esperada: Contagem de likes
 Pagína: Portal TI
 
-<br>
+<br />
 Caso de testes 24:
 Objetivo: Testar Campos de Texto e Envio do Formulário na Página Fale Conosco.
 Formulário : Testar se foi feito o envio correto dos dados/informações inseridas.
@@ -342,7 +342,7 @@ Saída esperada: Formulário enviado com sucesso!
 Saída real do sistema: Your form was successfully submitted.
 Registro da execução: Campos de texto inseridos e formulário enviado normalmente e salvos na planilha.
 
-<br>
+<br />
 Caso de testes 25:
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o nome foi inserido corretamente
@@ -350,7 +350,7 @@ Pagína: Portal TI
 
 ![nome](https://user-images.githubusercontent.com/114544447/204174660-28bd667d-85a0-4f5b-be28-ce3720b8c230.png)
 
-<br>
+<br />
 Caso de testes 26:
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o e-mail foi inserido corretamente
@@ -359,7 +359,7 @@ Pagína: Portal TI
 
 ![email](https://user-images.githubusercontent.com/114544447/204174675-3fe75504-40df-47a8-8ba3-9238fb6f8431.png)
 
-<br>
+<br />
 Caso de testes 27:
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o campo “Qual opção se encaixa em você?” foi inserido corretamente
@@ -368,7 +368,7 @@ Pagína: Portal TI
 
 ![opcao](https://user-images.githubusercontent.com/114544447/204174693-63dad0d2-84fe-46f5-a6f6-7e4f45ccb8c4.png)
 
-<br>
+<br />
 Caso de testes 28:
 Objetivo: Testar Campos e páginas
 Cadastro : Testar se o campo “Qual a área de maior interesse no site?” foi inserido corretamente
