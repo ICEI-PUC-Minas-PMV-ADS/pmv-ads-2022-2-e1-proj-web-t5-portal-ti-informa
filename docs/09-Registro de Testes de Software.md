@@ -5,7 +5,7 @@
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
 # Lizane Faria Rodrigues
-Elaborei para as funcionalidades Index e Gerenciamento de notícia (Inserir, Alterar, Excluir) os seguintes casos de testes:
+Realizado os testes para as funcionalidades Index e Gerenciamento de notícia (Inserir, Alterar, Excluir) conforme seguintes casos de testes:
 
 Caso de testes 1:
 <br />
@@ -24,12 +24,18 @@ Destaque: Sim
 <br />
 Resultado esperado: notícia em destaque cadastrada com sucesso.
 <br />
+Saída real do sistema: notícia cadastrada com sucesso
+<br />
 
+Evidência 1: Nenhuma notícia cadastrada 
+![image](https://user-images.githubusercontent.com/114541642/204173069-394d9b30-e47d-44c3-8dc4-fe376e1d171a.png)
+
+Evidência 2: Notícia Id 1 cadastrada
+![_C__git_pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa_cadastro html](https://user-images.githubusercontent.com/114541642/204173174-6ef98038-d8cc-443b-96c3-b550e1b8a0f3.png)
 
 Caso de testes 2:
 <br />
-Objetivo: testar a funcionalidade inserir quando a notícia não 
-for estaque;
+Objetivo: testar a funcionalidade inserir quando a notícia não for destaque;
 <br />
 Título: JavaScript nova versão
 <br />
@@ -44,6 +50,15 @@ Destaque: não
 <br />
 Resultado esperado: notícia não é destaque cadastrada com sucesso.
 <br />
+Saída real do sistema: notícia cadastrada com sucesso
+<br />
+
+Evidência 1: Nenhuma notícia cadastrada 
+![image](https://user-images.githubusercontent.com/114541642/204173092-15aa1e55-886b-49f7-960c-525f475927d2.png)
+
+Evidência 2: Notícia Id 3 cadastrada
+![_C__git_pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa_cadastro html](https://user-images.githubusercontent.com/114541642/204173172-9417610a-7075-414b-9be2-3327765247c3.png)
+
 
 Caso de testes 3:
 <br />
