@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="css/modernmag-assets.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+
+	<link rel="stylesheet" href="/css/modernmag-assets.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="https://kit.fontawesome.com/a76aecea6a.js" crossorigin="anonymous"></script>
+
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
 		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
 
-    <script src="bdcursos.js"></script>
-    
+
+
 </head>
 <header class="clearfix">
+
 	<div class="top-line">
 		<div class="container">
 			<div class="row">
@@ -26,22 +32,18 @@
 					</a>
 				</div>
 				<div class="col-sm-7">
-
+					<form class="form-inline">
+						<input class="form-control mr-sm-2" type="search" placeholder="Buscar por..."
+							aria-label="Search">
+						<button class="btn btn-primary my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+					</form>
 					<ul class="info-list right-align">
 						<li>
-							<a href="#" data-toggle="modal" data-target="#loginModal"><i
-									class="fa fa-user"></i>Login</a>
+							<a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-user"></i>Log
+								in</a>
 						</li>
 						<li>
-							<a href="index.html">Cadastrar</a>
-						</li>
-						<li>
-							<form class="form-inline">
-								<input class="form-control mr-sm-2" type="search" placeholder="Search for..."
-									aria-label="Search">
-								<button class="btn btn-primary my-2 my-sm-0" type="submit"><i
-										class="fa fa-search"></i></button>
-							</form>
+							<a href="cadastro_contatos.html">Registro</a>
 						</li>
 					</ul>
 				</div>
@@ -49,7 +51,7 @@
 		</div>
 	</div>
 
-	<nav class="navbar navbar-expand-lg ">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,9 +64,172 @@
 						<a class="nav-link" href="index.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="cursos.html">Cursos</a>
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">NOTICIAS</a>
+						<a class="nav-link" href="#">NOTICIAS<i class="fa fa-caret-down"></i></a>
+						<div class="mega-posts-menu">
+							<div class="posts-line">
+								<ul class="filter-list">
+									<li><a href="#">segurança</a></li>
+									<li><a href="#">internet</a></li>
+								</ul>
+								<div class="row">
+									<div class="col-lg-3 col-md-6">
+										<div class="news-post standart-post">
+											<div class="post-image">
+												<a href="index.html">
+													<img src="images/blog/s1.jpg" alt="">
+												</a>
+												<a href="#" class="category">NOTICIAS</a>
+											</div>
+											<h2><a href="not-instagram.html">Instagram, Facebook e WhatsApp
+													apresentam
+													instabilidade</a></h2>
+											<ul class="post-tags">
+												<li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+												<li><a href="not-instagram.html"><i class="lnr lnr-book"></i><span>29
+															comentários</span></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="news-post standart-post">
+											<div class="post-image">
+												<a href="not-musk.html">
+													<img src="images/blog/s2.jpg" alt="">
+												</a>
+												<a href="#" class="category">NOTICIAS</a>
+											</div>
+											<h2><a href="not-musk.html">Musk diz que Twitter terá conselho para
+													decidir sobre moderação de conteúdo.</a></h2>
+											<ul class="post-tags">
+												<li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+												<li><a href="#"><i class="lnr lnr-book"></i><span>5
+															comentários</span></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="news-post standart-post">
+											<div class="post-image">
+												<a href="not-deepfake.html">
+													<img src="images/blog/s24.jpg" alt="">
+												</a>
+												<a href="#" class="category">NOTICIAS</a>
+											</div>
+											<h2><a href="not-deepfake.html">'Deepfake': 'Colocaram meu rosto em
+													um
+													vídeo pornô'</a></h2>
+											<ul class="post-tags">
+												<li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+												<li><a href="#"><i class="lnr lnr-book"></i><span>23
+															comentários</span></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="news-post standart-post">
+											<div class="post-image">
+												<a href="not-tiktok.html">
+													<img src="images/blog/s25.jpg" alt="">
+												</a>
+												<a href="#" class="category">NOTICIAS</a>
+											</div>
+											<h2><a href="not-tiktok.html">TikTok proíbe menores de idade em
+													lives
+													após reportagem da BBC</a></h2>
+											<ul class="post-tags">
+												<li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+												<li><a href="#"><i class="lnr lnr-book"></i><span>23
+															comentários</span></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/cursos.html">Cursos<i class="fa fa-caret-down"></i></a>
+						<div class="mega-posts-menu">
+							<div class="posts-line">
+								<ul class="filter-list">
+									<li><a href="#">Gratuitos</a></li>
+									<li><a href="#">Html</a></li>
+									<li><a href="#">CSS</a></li>
+									<li><a href="#">javacript</a></li>
+									<li><a href="#">Python</a></li>
+								</ul>
+								<div class="row">
+									<div class="col-lg-3 col-md-6">
+										<div class="news-post standart-post">
+											<div class="post-image">
+												<a href="index.html">
+													<img src="images/blog/s4.jpg" alt="">
+												</a>
+												<a href="#" class="category">Cursos</a>
+											</div>
+											<h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
+													adipiscing elit</a></h2>
+											<ul class="post-tags">
+												<li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+												<li><a href="#"><i class="lnr lnr-book"></i><span>23
+															comentários</span></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="news-post standart-post">
+											<div class="post-image">
+												<a href="index.html">
+													<img src="images/blog/s14.jpg" alt="">
+												</a>
+												<a href="#" class="category">Cursos</a>
+											</div>
+											<h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
+													adipiscing elit</a></h2>
+											<ul class="post-tags">
+												<li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+												<li><a href="#"><i class="lnr lnr-book"></i><span>23
+															comentários</span></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="news-post standart-post">
+											<div class="post-image">
+												<a href="index.html">
+													<img src="images/blog/s16.jpg" alt="">
+												</a>
+												<a href="#" class="category">Cursos</a>
+											</div>
+											<h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
+													adipiscing elit</a></h2>
+											<ul class="post-tags">
+												<li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+												<li><a href="#"><i class="lnr lnr-book"></i><span>23
+															comentários</span></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="news-post standart-post">
+											<div class="post-image">
+												<a href="index.html">
+													<img src="images/blog/s19.jpg" alt="">
+												</a>
+												<a href="#" class="category">Cursos</a>
+											</div>
+											<h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
+													adipiscing elit</a></h2>
+											<ul class="post-tags">
+												<li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+												<li><a href="#"><i class="lnr lnr-book"></i><span>23
+															comentários</span></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="faleconosco.html">fale conosco</a>
@@ -73,84 +238,141 @@
 			</div>
 		</div>
 	</nav>
-
 </header>
-<body>
-    <div id="principal">
-        <header>
-            <h1> <strong>Cursos</strong></h1><br>
-        </header>
 
-        <main>
-            <section>
-				<div>
-                <div id="produto-imagem">
-                   
+<!-------- Final Menu  ------------->
+
+<body class="clearfix">
+
+	<link rel="stylesheet" href="/css/formatcurso.css">
+	<link rel="stylesheet" media="screen and (min-width: 900px)" href="formatcurso.css">
+	<link rel="stylesheet" media="screen and (max-width: 600px)" href="formatcurso.css">
+
+	<div id="principal">
+
+		<header class="flex-container">
+			<h1 id="titulo-cursos"><strong>Cursos</strong></h1><br>
+		</header>
+
+		<div class="flex-container">
+			<div>
+				<div class="card" style="width: 18rem; height: 450px;">
+					<img src="http://lorempixel.com.br/200/120/people/2" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Entenda o que faz um analista de sistema</h5>
+						<p class="card-text">Nesse vídeo voce vai entender mais sobre o que um profissional de Análise
+							de Sistemas faz. Descubra, entre outras coisas, onde eles atuam e qual a formação necessária
+							para atuar no mercado.
+						</p>
+						<a href="https://www.youtube.com/watch?v=5K7OGSsWlzU" target="_blank"
+							class="btn btn-primary">Saiba mais</a>
+					</div>
+
+
 				</div>
 
-                <div id="produto-descricao">
-                    
+				<button id="like">
+					<div class="label">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M8.4 5.25C5.61914 5.25 3.25 7.3293 3.25 10.0298C3.25 11.8927 4.12235 13.4612 5.27849 14.7604C6.43066 16.0552 7.91714 17.142 9.26097 18.0516L11.5796 19.6211C11.8335 19.793 12.1665 19.793 12.4204 19.6211L14.739 18.0516C16.0829 17.142 17.5693 16.0552 18.7215 14.7604C19.8777 13.4612 20.75 11.8927 20.75 10.0298C20.75 7.3293 18.3809 5.25 15.6 5.25C14.1665 5.25 12.9052 5.92214 12 6.79183C11.0948 5.92214 9.83347 5.25 8.4 5.25Z"
+								fill="black" />
+						</svg>
+						Curtir
+					</div>
+					<div class="number" id="number">50</div>
+				</button>
 
-                </div>
+
+			</div>
+
+
+
+			<div class="teste">
+				<div class="card" style="width: 18rem; height: 450px;">
+					<img src="http://lorempixel.com.br/200/120/people/3" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">HTML descomplicado</h5>
+						<p class="card-text">Neste curso de HTML você vai aprender a linguagem de base de toda a web.
+							Este curso HTML vai abordar tudo que você precisa aprender para iniciar sua Home Page.</p>
+						<a href="https://www.youtube.com/watch?v=nPEpaft1y1k" target="_blank"
+							class="btn btn-primary">Saiba mais</a>
+					</div>
+
+					<style>
+						.btn {
+							margin-top: 12px;
+							margin-bottom: 10px;
+						}
+					</style>
+
 				</div>
-            </section>
 
-            <section></section>
+				<button id="like02">
+					<div class="label">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M8.4 5.25C5.61914 5.25 3.25 7.3293 3.25 10.0298C3.25 11.8927 4.12235 13.4612 5.27849 14.7604C6.43066 16.0552 7.91714 17.142 9.26097 18.0516L11.5796 19.6211C11.8335 19.793 12.1665 19.793 12.4204 19.6211L14.739 18.0516C16.0829 17.142 17.5693 16.0552 18.7215 14.7604C19.8777 13.4612 20.75 11.8927 20.75 10.0298C20.75 7.3293 18.3809 5.25 15.6 5.25C14.1665 5.25 12.9052 5.92214 12 6.79183C11.0948 5.92214 9.83347 5.25 8.4 5.25Z"
+								fill="black" />
+						</svg>
+						Curtir
+					</div>
+					<div class="number02" id="number02">50</div>
+				</button>
 
-        </main>
-    
+			</div>
+			<div class="teste">
+				<div class="card" style="width: 18rem; height: 450px;">
+					<img src="http://lorempixel.com.br/200/120/people/4" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Primeiros passos para criar um algorítmo</h5>
+						<p class="card-text">Neste curso Lógica de Programação para iniciantes você vai aprender todo o
+							passo a passo necessário para montar algoritimos e como isso pode ser usado para criar um
+							software do zero.</p>
+						<a href="https://www.youtube.com/watch?v=iF2MdbrTiBM" target="_blank"
+							class="btn btn-primary">Saiba mais</a>
+					</div>
+				</div>
 
-    <style>
-        h1{
-            margin: auto;
-        
-        }
-        body{
-            font-size: 15px;
-            font-family: sans-serif;
-            width: 800px;
-            margin: auto;
-              
-        }
-        .produto-imagem{
-            float: left;
-        }
-        .produto-curso{
-            font-size: 20px;
-            font-family: sans-serif;
-            width: 800px;
-            margin: auto
-        }
-        .produto-descricao{
-            font-size: 15px;
-            font-family: sans-serif;
-            width: 800px;
-            margin: auto;
-        }
-        
+				<button id="like03">
+					<div class="label">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M8.4 5.25C5.61914 5.25 3.25 7.3293 3.25 10.0298C3.25 11.8927 4.12235 13.4612 5.27849 14.7604C6.43066 16.0552 7.91714 17.142 9.26097 18.0516L11.5796 19.6211C11.8335 19.793 12.1665 19.793 12.4204 19.6211L14.739 18.0516C16.0829 17.142 17.5693 16.0552 18.7215 14.7604C19.8777 13.4612 20.75 11.8927 20.75 10.0298C20.75 7.3293 18.3809 5.25 15.6 5.25C14.1665 5.25 12.9052 5.92214 12 6.79183C11.0948 5.92214 9.83347 5.25 8.4 5.25Z"
+								fill="black" />
+						</svg>
+						Curtir
+					</div>
+					<div class="number03" id="number03">50</div>
+				</button>
 
-    </style>
+			</div>
 
 
-    <div id="lista-produto"></div>
+		</div>
 
-   <script>
-    var desc= '';
-        for (var index = 0; index < db.dados.length; index++) {
-            desc += `<p class="produto-curso">Curso: ${ db.dados[index].titulo} <br></p>`; 
-            desc += `<p class="produto-descricao">Descrição: ${ db.dados[index].descrição} <br></p>`;
-            desc += `<p ><img src=" ${ db.dados[index].imagem} class="produto-imagem" alt=""> <br></p>`;
-         
-        }
-        document.getElementById('lista-produto').innerHTML = desc;
-   </script>         
-    
-    
+
+		<script src="bdcursos.js"></script>
+		<script src="app.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+			integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+			integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+			crossorigin="anonymous"></script>
 
 </body>
 <footer>
+	<div class="container">
+		<div class="down-footer">
+			<ul class="list-footer">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="faleconosco.html">Contato</a></li>
+			</ul>
+		</div>
 
-    
-
+	</div>
 </footer>
+
 </html>

@@ -1,13 +1,20 @@
-<!DOCTYPE html> /* Como minha funcionalidade foi descartada de última hora, elaborei um formulário de pesquisa de satisfação do site. A ser implementado, ainda */
+<!DOCTYPE html> 
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de pesquisa</title>
+    <link rel="stylesheet" href="css/modernmag-assets.min.css">
+    <link rel="stylesheet" href="/css/modernmag-assets.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/a76aecea6a.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
 </head>
 <body>
+    
     <div class="container">
         <header class="header">
           <h1 id="title" class="text-center">Portal TI Informa - Pesquisa</h1>
@@ -15,7 +22,8 @@
             Obrigado por nos ajudar a melhorar nosso projeto!
           </p>
         </header>
-        <form id="survey-form">
+        <form id="survey-form" action="https://api.sheetmonkey.io/form/kZuidV5L9LZ6TrnpBav4uA" method="post">
+          <!--Caixas de Textos form / envio do formulario para uma planilha na Web usando o Sheet Monkey (do Google Sheets)-->
           <div class="form-group">
             <label id="name-label" for="nome">Nome</label>
             <input
@@ -171,6 +179,16 @@
           </div>
         </form>
       </div>
-      
+      				    
+	            
+				<!--Função enviar em js -->
+				<!--
+				<script>
+					function submitForm() {
+						let form = document.getElementById("form_submit");
+						form.submit();
+					}
+				</script>
+			    -->
 </body>
 </html>
