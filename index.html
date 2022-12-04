@@ -11,14 +11,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="stylesheet" href="/css/modernmag-assets.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <script src="https://kit.fontawesome.com/a76aecea6a.js" crossorigin="anonymous"></script>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="css/modernmag-assets.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/noticiasPreCarregadas.js"></script>
+	<script src="js/index.js"></script>
 </head>
 
 <body class="boxed-style">
@@ -51,6 +51,10 @@
                                 <li>
                                     <a href="cadastro_contatos.html">Registro</a>
                                 </li>
+
+								<li>
+									<a href="cadastro.html">Gerenciar Notícias</a>
+								</li>
                             </ul>
                         </div>
                     </div>
@@ -156,7 +160,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/cursos.html">Cursos<i class="fa fa-caret-down"></i></a>
+                                <a class="nav-link" href="cursos.html">Cursos<i class="fa fa-caret-down"></i></a>
                                 <div class="mega-posts-menu">
                                     <div class="posts-line">
                                         <ul class="filter-list">
@@ -251,120 +255,19 @@
 			================================================== -->
 		<footer>
 			<div class="container">
-
-				<div class="up-footer">
-					<div class="row">
-
-						<div class="col-lg-3 col-md-6">
-							<div class="footer-widget text-widget">
-								<h1><a href="index.html"><img src="images/logoredii.png" alt="" width="35%"></a></h1>
-								<p>Notícias e informações sobre tecnologia: programação, web design, mineração de dados, desenvolvimento mobil e muito mais. Pensou em tecnologia, o universo é aqui!</p>
-								<ul class="social-icons">
-									<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-									<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-								</ul>
-
-                                <picture id="pesquisa">
-                                    <a href="formPesquisa.html" target="_blank"><img src="images/pesquisa.jpg" class="media-object  img-responsive img-thumbnail"></a>
-                                </picture>
-							</div>
-						</div>
-
-						<div class="col-lg-3 col-md-6">
-							<div class="footer-widget popular-widget">
-								<h1>NOTICIAS ALTA</h1>
-								<ul class="small-posts">
-									<li>
-										<a href="not-instagram.html">
-											<img src="images/instagram.jpg" alt="">
-										</a>
-										<div class="post-cont">
-											<h2><a href="not-instagram.html">Instagram, Facebook e WhatsApp apresentam instabilidade.</a></h2>
-											<ul class="post-tags">
-												<li>por <a href="#">Admin</a></li>
-											</ul>
-										</div>
-									</li>
-									<li>
-										<a href="not-musk.html">
-											<img src="images/musk.jpg" alt="">
-										</a>
-										<div class="post-cont">
-											<h2><a href="not-musk.html">Musk diz que Twitter terá conselho para decidir sobre moderação de conteúdo.</a></h2>
-											<ul class="post-tags">
-												<li>por <a href="#">Admin</a></li>
-											</ul>
-										</div>
-									</li>
-									<li>
-										<a href="not-deepfake.html">
-											<img src="images/depfake.jpg" alt="">
-										</a>
-										<div class="post-cont">
-											<h2><a href="not-deepfake.html">'Deepfake': 'Colocaram meu rosto em um vídeo pornô'.</a></h2>
-											<ul class="post-tags">
-												<li>por <a href="#">Admin </a></li>
-											</ul>
-										</div>
-									</li>
-									<li>
-										<a href="not-tiktok.html">
-											<img src="images/tiktok.jpg" alt="">
-										</a>
-										<div class="post-cont">
-											<h2><a href="not-tiktok.html">TikTok proíbe menores de idade em lives após reportagem da BBC</a></h2>
-											<ul class="post-tags">
-												<li>por <a href="#">Admin </a></li>
-											</ul>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-lg-3 col-md-6">
-							<div class="footer-widget featured-widget">
-								<h1>Postagem em destaque</h1>
-								<div class="news-post standart-post">
-									<div class="post-image">
-										<a href="not-instagram.html">
-											<img src="images/instagram.jpg" alt="">
-										</a>
-										<a href="#" class="category">Software</a>
-									</div>
-									<h2><a href="not-instagram.html">Instagram, Facebook e WhatsApp apresentam instabilidade.</a></h2>
-								</div>
-
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="footer-widget featured-widget">
-								<h1>Postagem em destaque 2</h1>
-								<div class="news-post standart-post">
-									<div class="post-image">
-										<a href="not-tiktok.html">
-											<img src="images/tiktok.jpg" alt="">
-										</a>
-										<a href="#" class="category">Software</a>
-									</div>
-									<h2><a href="index.html"></a>TikTok proíbe menores de idade em lives após reportagem da BBC</h2>
-								</div>
-
-							</div>
-						</div>
+				<div class="row" id="noticiaEmDestaque">
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<h3 style="color: white">
+							Principais Notícias
+						</h3>
 					</div>
 				</div>
-
-                <div class="down-footer">
-                    <ul class="list-footer">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="faleconosco.html">Contato</a></li>
-                    </ul>
-                </div>
-
+				<br />
+				<div class="row" id="noticiasSemDestaque">
+				</div>
 			</div>
 		</footer>
 		<!-- End footer -->
@@ -372,3 +275,25 @@
 	</div>	
 </body>
 </html>
+
+<script type="text/template" id="templateNoticiaHtml">
+	<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 noticiaSemDestaque" id="templateNoticia">
+		<img src="#" class="img-home" id="imgNoticia" />
+		<h4 class="titulo-noticias" id="tituloNoticia"></h4>
+		<p id="resumoNoticia"> 
+		</p>
+	</div>
+</script>
+
+<script type="text/template" id="templateNoticiaDestaqueHtml">
+	<div class="row" id="templateNoticiaDestaque">
+		<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+			<h4 class="titulo-noticias" id="tituloNoticiaDestaque"></h4>
+			<p id="resumoNoticiaDestaque">
+			</p>
+		</div>
+		<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+			<img src="#" id="imgNoticiaDestaque" />
+		</div>
+	</div>
+</script>

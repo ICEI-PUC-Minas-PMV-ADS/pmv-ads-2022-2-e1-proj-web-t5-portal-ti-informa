@@ -1,0 +1,32 @@
+input[type=text] {
+    width: 100%;
+ }
+
+ input[type=text]:focus {
+    width: 100%;
+  }
+
+label{
+   color: white;
+}
+
+#table-noticias td{
+   color: white;
+}
+
+#grid-noticias thead > tr> th{
+   color: white;
+}
+
+small {
+   color: white;
+}
+
+.btn{
+   color: white;
+}
+
+.tituloCadastro{
+   text-align: center;
+    margin-top: 15px;
+}

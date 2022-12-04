@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Notícias</title>
+    <link rel="stylesheet" href="css/modernmag-assets.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <script src="js/noticiasPreCarregadas.js"></script>
+    <script src="js/cadastro.js"></script>
+</head>
+
+<body onload="init()">
+    <header class="clearfix">
+        <div class="top-line">
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Andre\Header
+============================================== -->
+                <div class="row">
+                    <div class="col-sm-5">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/logoredii.png" alt="" width="30%">
+                        </a>
+                    </div>
+                    <div class="col-sm-7">
+
+                        <ul class="info-list right-align">
+                            <li>
+                                <a href="#" data-toggle="modal" data-target="#loginModal"><i
+                                        class="fa fa-user"></i>Login</a>
+                            </li>
+                            <li>
+                                <a href="cadastro.html">Cadastrar</a>
+                            </li>
+                            <li>
+                                <form class="form-inline">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search for..."
+                                        aria-label="Search">
+                                    <button class="btn btn-primary my-2 my-sm-0" type="submit"><i
+                                            class="fa fa-search"></i></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NOTICIAS<i class="fa fa-caret-down"></i></a>
+                            <div class="mega-posts-menu">
+                                <div class="posts-line">
+                                    <ul class="filter-list">
+                                        <li><a href="#">segurança</a></li>
+                                        <li><a href="#">internet</a></li>
+                                    </ul>
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="news-post standart-post">
+                                                <div class="post-image">
+                                                    <a href="index.html">
+                                                        <img src="images/blog/s1.jpg" alt="">
+                                                    </a>
+                                                    <a href="#" class="category">NOTICIAS</a>
+                                                </div>
+                                                <h2><a href="not-instagram.html">Instagram, Facebook e WhatsApp
+                                                        apresentam
+                                                        instabilidade</a></h2>
+                                                <ul class="post-tags">
+                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+                                                    <li><a href="not-instagram.html"><i
+                                                                class="lnr lnr-book"></i><span>29
+                                                                comentários</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="news-post standart-post">
+                                                <div class="post-image">
+                                                    <a href="not-musk.html">
+                                                        <img src="images/blog/s2.jpg" alt="">
+                                                    </a>
+                                                    <a href="#" class="category">NOTICIAS</a>
+                                                </div>
+                                                <h2><a href="not-musk.html">Musk diz que Twitter terá conselho para
+                                                        decidir sobre moderação de conteúdo.</a></h2>
+                                                <ul class="post-tags">
+                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>5
+                                                                comentários</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="news-post standart-post">
+                                                <div class="post-image">
+                                                    <a href="not-deepfake.html">
+                                                        <img src="images/blog/s24.jpg" alt="">
+                                                    </a>
+                                                    <a href="#" class="category">NOTICIAS</a>
+                                                </div>
+                                                <h2><a href="not-deepfake.html">'Deepfake': 'Colocaram meu rosto em
+                                                        um
+                                                        vídeo pornô'</a></h2>
+                                                <ul class="post-tags">
+                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
+                                                                comentários</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="news-post standart-post">
+                                                <div class="post-image">
+                                                    <a href="not-tiktok.html">
+                                                        <img src="images/blog/s25.jpg" alt="">
+                                                    </a>
+                                                    <a href="#" class="category">NOTICIAS</a>
+                                                </div>
+                                                <h2><a href="not-tiktok.html">TikTok proíbe menores de idade em
+                                                        lives
+                                                        após reportagem da BBC</a></h2>
+                                                <ul class="post-tags">
+                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
+                                                                comentários</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/cursos.html">Cursos<i class="fa fa-caret-down"></i></a>
+                            <div class="mega-posts-menu">
+                                <div class="posts-line">
+                                    <ul class="filter-list">
+                                        <li><a href="#">Gratuitos</a></li>
+                                        <li><a href="#">Html</a></li>
+                                        <li><a href="#">CSS</a></li>
+                                        <li><a href="#">javacript</a></li>
+                                        <li><a href="#">Python</a></li>
+                                    </ul>
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="news-post standart-post">
+                                                <div class="post-image">
+                                                    <a href="index.html">
+                                                        <img src="images/blog/s4.jpg" alt="">
+                                                    </a>
+                                                    <a href="#" class="category">Cursos</a>
+                                                </div>
+                                                <h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
+                                                        adipiscing elit</a></h2>
+                                                <ul class="post-tags">
+                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
+                                                                comentários</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="news-post standart-post">
+                                                <div class="post-image">
+                                                    <a href="index.html">
+                                                        <img src="images/blog/s14.jpg" alt="">
+                                                    </a>
+                                                    <a href="#" class="category">Cursos</a>
+                                                </div>
+                                                <h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
+                                                        adipiscing elit</a></h2>
+                                                <ul class="post-tags">
+                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
+                                                                comentários</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="news-post standart-post">
+                                                <div class="post-image">
+                                                    <a href="index.html">
+                                                        <img src="images/blog/s16.jpg" alt="">
+                                                    </a>
+                                                    <a href="#" class="category">Cursos</a>
+                                                </div>
+                                                <h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
+                                                        adipiscing elit</a></h2>
+                                                <ul class="post-tags">
+                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
+                                                                comentários</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="news-post standart-post">
+                                                <div class="post-image">
+                                                    <a href="index.html">
+                                                        <img src="images/blog/s19.jpg" alt="">
+                                                    </a>
+                                                    <a href="#" class="category">Cursos</a>
+                                                </div>
+                                                <h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
+                                                        adipiscing elit</a></h2>
+                                                <ul class="post-tags">
+                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
+                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
+                                                                comentários</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faleconosco.html">fale conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <h1 class="tituloCadastro">Cadastro de Notícias</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+
+        <form id="form-noticia">
+            <div class="form-group row">
+                <div class="col-sm-2">
+                    <label for="inputId">Id</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="Id" disabled>
+                </div>
+                <div class="col-sm-10">
+                    <label for="inputTitulo">Título (*)</label>
+                    <input type="text" class="form-control" id="inputTitulo" required
+                        placeholder="Informe o título da notícia">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-5">
+                    <label for="inputResumo">Resumo (*)</label>
+                    <textarea class="form-control" id="inputResumo" cols="30" rows="3" type="text" required
+                        placeholder="Informe o resumo da notícia"></textarea>
+                </div>
+                <div class="col-sm-7">
+                    <label for="inputConteudo">Conteúdo (*)</label>
+                    <textarea class="form-control" id="inputConteudo" cols="30" rows="3" type="text" required
+                        placeholder="Informe o conteúdo da notícia"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-9">
+                    <label for="inputImagem">Imagem (*)</label>
+                    <input type="text" class="form-control" id="inputImagem" required
+                        placeholder="Informe o caminho da imagem">
+                </div>
+                <div class="col-sm-3">
+                    <label for="inputDestaque">Destaque (*)</label>
+                    <select name="opcoesDestaque" id="opcoesDestaque" class="form-control">
+                        <option value="sim" selected>Sim</option>
+                        <option value="não">Não</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <small>(*) Campos obrigatórios</small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
+                    <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+                    <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
+                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
+                    <a href="lista_contatos.html"><input type="button" class="btn btn-warning" id="btnClear"
+                            value="Pesquisar Notícias"></a>
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-noticias" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="col-sm-1" scope="col">#</th>
+                            <th class="col-sm-2" scope="col">Título</th>
+                            <th class="col-sm-3" scope="col">Resumo</th>
+                            <th class="col-sm-3" scope="col">Conteúdo</th>
+                            <th class="col-sm-2" scope="col">Imagem</th>
+                            <th class="col-sm-1" scope="col">Destaque</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-noticias">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/cadastro.js"></script>
+    <script>
+        function exibirNoticias() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-noticias").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let noticia = db.data[i];
+                $("#table-noticias").append(`<tr><td scope="row">${noticia.id}</td>
+                                                <td>${noticia.tituloNoticia}</td>
+                                                <td>${noticia.resumo}</td>
+                                                <td>${noticia.conteudo}</td>
+                                                <td>${noticia.imagem}</td>
+                                                <td>${noticia.destaque}</td>
+                                            </tr>`);
+            }
+        }
+
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-noticia')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let noticia = {
+                    tituloNoticia: $("#inputTitulo").val(),
+                    resumo: $("#inputResumo").val(),
+                    conteudo: $("#inputConteudo").val(),
+                    imagem: $("#inputImagem").val(),
+                    destaque: $("#opcoesDestaque").val(),
+                };
+
+                inserirNoticia(noticia);
+
+                // Reexibe os contatos
+                exibirNoticias();
+
+                // Limpa o formulario
+                $("#form-noticia")[0].reset();
+            });
+
+            // Intercepta o click do botão Alterar
+            $("#btnUpdate").click(function () {
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato para ser alterado.");
+                    return;
+                }
+                let noticia = {
+                    tituloNoticia: $("#inputTitulo").val(),
+                    resumo: $("#inputResumo").val(),
+                    conteudo: $("#inputConteudo").val(),
+                    imagem: $("#inputImagem").val(),
+                    destaque: $("#opcoesDestaque").val(),
+                };
+
+
+                updateNoticia(parseInt(campoId), noticia);
+
+                // Reexibe os contatos
+                exibirNoticias();
+
+                // Limpa o formulario
+                $("#form-noticia")[0].reset();
+            });
+
+            // Intercepta o click do botão Excluir
+            $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato a ser excluído.");
+                    return;
+                }
+                deleteNoticia(parseInt(campoId));
+
+                // Reexibe os contatos
+                exibirNoticias();
+
+                // Limpa o formulario
+                $("#form-noticia")[0].reset();
+            });
+
+            // Intercepta o click do botão Listar Contatos
+            $("#btnClear").click(function () {
+                $("#form-noticia")[0].reset();
+            });
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+            $("#grid-noticias").on("click", "tr", function (e) {
+                let linhaContato = this;
+                colunas = linhaContato.querySelectorAll("td");
+
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputTitulo").val(colunas[1].innerText);
+                $("#inputResumo").val(colunas[2].innerText);
+                $("#inputConteudo").val(colunas[3].innerText);
+                $("#inputImagem").val(colunas[4].innerText);
+                $("#opcoesDestaque").val(colunas[5].innerText);
+            });
+
+            exibirNoticias();
+        }
+    </script>
+</body>
+
+</html>

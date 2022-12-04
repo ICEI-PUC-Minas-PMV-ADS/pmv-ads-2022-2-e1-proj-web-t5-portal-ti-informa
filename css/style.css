@@ -2982,4 +2982,18 @@ footer {
   line-height: 1.5;
 
 }
-    
+.img-home{    
+  width: 65%;        
+  height: 50%;
+}
+
+.titulo-noticias{
+  font-size: medium;
+  margin-top: 10px;
+  color: white;
+}
+
+.noticiaSemDestaque{
+  margin-top: 25px;
+}
+
