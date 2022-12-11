@@ -38,6 +38,7 @@ function carregarNoticias() {
 
     if (!noticias) {
         noticias = noticiaspreCarregadas;
+        localStorage.setItem('noticias', JSON.stringify(noticiaspreCarregadas));
     }
 
     noticias.data.forEach(noticia => {

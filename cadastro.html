@@ -16,12 +16,9 @@
 
 <body onload="init()">
     <header class="clearfix">
-        <div class="top-line">
-            <!-- Container -->
-            <div class="container">
 
-                <!-- Andre\Header
-============================================== -->
+        <div class="top-line">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-5">
                         <a class="navbar-brand" href="index.html">
@@ -29,18 +26,19 @@
                         </a>
                     </div>
                     <div class="col-sm-7">
-
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Buscar por..."
+                                aria-label="Search">
+                            <button class="btn btn-primary my-2 my-sm-0" type="submit"><i
+                                    class="fa fa-search"></i></button>
+                        </form>
                         <ul class="info-list right-align">
-                            <li>
-                                <a href="#" data-toggle="modal" data-target="#loginModal"><i
-                                        class="fa fa-user"></i>Log in</a>
-                            </li>
-                            <li>
-                                <a href="cadastro_contatos.html">Registro</a>
-                            </li>
 
                             <li>
                                 <a href="cadastro.html">Gerenciar Notícias</a>
+                            </li>
+                            <li>
+                                <a href="cadastro_cursos.html">Gerenciar Cursos</a>
                             </li>
                         </ul>
                     </div>
@@ -61,174 +59,9 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="#">NOTICIAS<i class="fa fa-caret-down"></i></a>
-                            <div class="mega-posts-menu">
-                                <div class="posts-line">
-                                    <ul class="filter-list">
-                                        <li><a href="#">segurança</a></li>
-                                        <li><a href="#">internet</a></li>
-                                    </ul>
-                                    <div class="row">
-                                        <div class="col-lg-3 col-md-6">
-                                            <div class="news-post standart-post">
-                                                <div class="post-image">
-                                                    <a href="index.html">
-                                                        <img src="images/blog/s1.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="category">NOTICIAS</a>
-                                                </div>
-                                                <h2><a href="not-instagram.html">Instagram, Facebook e WhatsApp
-                                                        apresentam
-                                                        instabilidade</a></h2>
-                                                <ul class="post-tags">
-                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
-                                                    <li><a href="not-instagram.html"><i
-                                                                class="lnr lnr-book"></i><span>29
-                                                                comentários</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6">
-                                            <div class="news-post standart-post">
-                                                <div class="post-image">
-                                                    <a href="not-musk.html">
-                                                        <img src="images/blog/s2.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="category">NOTICIAS</a>
-                                                </div>
-                                                <h2><a href="not-musk.html">Musk diz que Twitter terá conselho para
-                                                        decidir sobre moderação de conteúdo.</a></h2>
-                                                <ul class="post-tags">
-                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
-                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>5
-                                                                comentários</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6">
-                                            <div class="news-post standart-post">
-                                                <div class="post-image">
-                                                    <a href="not-deepfake.html">
-                                                        <img src="images/blog/s24.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="category">NOTICIAS</a>
-                                                </div>
-                                                <h2><a href="not-deepfake.html">'Deepfake': 'Colocaram meu rosto em
-                                                        um
-                                                        vídeo pornô'</a></h2>
-                                                <ul class="post-tags">
-                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
-                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
-                                                                comentários</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6">
-                                            <div class="news-post standart-post">
-                                                <div class="post-image">
-                                                    <a href="not-tiktok.html">
-                                                        <img src="images/blog/s25.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="category">NOTICIAS</a>
-                                                </div>
-                                                <h2><a href="not-tiktok.html">TikTok proíbe menores de idade em
-                                                        lives
-                                                        após reportagem da BBC</a></h2>
-                                                <ul class="post-tags">
-                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
-                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
-                                                                comentários</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/cursos.html">Cursos<i class="fa fa-caret-down"></i></a>
-                            <div class="mega-posts-menu">
-                                <div class="posts-line">
-                                    <ul class="filter-list">
-                                        <li><a href="#">Gratuitos</a></li>
-                                        <li><a href="#">Html</a></li>
-                                        <li><a href="#">CSS</a></li>
-                                        <li><a href="#">javacript</a></li>
-                                        <li><a href="#">Python</a></li>
-                                    </ul>
-                                    <div class="row">
-                                        <div class="col-lg-3 col-md-6">
-                                            <div class="news-post standart-post">
-                                                <div class="post-image">
-                                                    <a href="index.html">
-                                                        <img src="images/blog/s4.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="category">Cursos</a>
-                                                </div>
-                                                <h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
-                                                        adipiscing elit</a></h2>
-                                                <ul class="post-tags">
-                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
-                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
-                                                                comentários</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6">
-                                            <div class="news-post standart-post">
-                                                <div class="post-image">
-                                                    <a href="index.html">
-                                                        <img src="images/blog/s14.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="category">Cursos</a>
-                                                </div>
-                                                <h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
-                                                        adipiscing elit</a></h2>
-                                                <ul class="post-tags">
-                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
-                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
-                                                                comentários</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6">
-                                            <div class="news-post standart-post">
-                                                <div class="post-image">
-                                                    <a href="index.html">
-                                                        <img src="images/blog/s16.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="category">Cursos</a>
-                                                </div>
-                                                <h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
-                                                        adipiscing elit</a></h2>
-                                                <ul class="post-tags">
-                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
-                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
-                                                                comentários</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6">
-                                            <div class="news-post standart-post">
-                                                <div class="post-image">
-                                                    <a href="index.html">
-                                                        <img src="images/blog/s19.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="category">Cursos</a>
-                                                </div>
-                                                <h2><a href="index.html">Lorem ipsum dolor sit amet, consectetur
-                                                        adipiscing elit</a></h2>
-                                                <ul class="post-tags">
-                                                    <li><i class="lnr lnr-user"></i>por <a href="#">Admin</a></li>
-                                                    <li><a href="#"><i class="lnr lnr-book"></i><span>23
-                                                                comentários</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <a class="nav-link" href="cursos.html">Cursos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="faleconosco.html">fale conosco</a>
@@ -237,7 +70,6 @@
                 </div>
             </div>
         </nav>
-
     </header>
     <h1 class="tituloCadastro">Cadastro de Notícias</h1>
 
