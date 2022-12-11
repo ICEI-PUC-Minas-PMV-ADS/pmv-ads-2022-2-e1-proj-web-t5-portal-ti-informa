@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <title>Tech News</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Cadastro de Cursos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylecadastro.css">
+    <link rel="stylesheet" href="css/modernmag-assets.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body onload="init()">
+
+    <!-- Container -->
+		<div id="container">
+			<!-- Header
+				================================================== -->
+			<header class="clearfix">
+	
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+					<div class="container-fluid">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+	
+						<a class="navbar-brand" href="index.html">
+							<img src="" alt="">
+						</a>
+	
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item active">
+									<a class="nav-link" href="index.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="Noticias.html">Noticias</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="Cursos.html">Cursos</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="Fale conosco.html">Fale conosco</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="Sobre.html">Sobre</a>
+								<li class="nav-item drop-link">
+							</ul>
+							<form class="form-inline my-2 my-lg-0">
+								<input class="form-control mr-sm-2" type="search" placeholder="Search for..." aria-label="Search">
+								<button class="btn btn-primary my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</header>
+		<!-- End Header -->
+
+    <h1>Cadastro de Cursos</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Curso não encontrado.</div>-->
+            </div>
+        </div>
+
+        <form id="form-curso">
+            <div class="form-group row">
+                <div class="col-sm-2">
+                    <label for="inputId">Id</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
+                </div>
+                <div class="col-sm-10">
+                    <label for="inputNome">Nome do Administrador</label>
+                    <input type="text" class="form-control" id="inputNome" required placeholder="Informe o nome do administrador">
+                </div>
+            </div>
+            <div class="form-group row">
+                <!-- <div class="col-sm-5">
+                    <label for="inputTelefone">Telefone (*)</label>
+                    <input type="text" class="form-control" id="inputTelefone" required placeholder="Telefone">
+                </div> -->
+                <div class="col-sm-12">
+                    <label for="inputEmail">E-mail (*)</label>
+                    <input type="email" class="form-control" id="inputEmail" required placeholder="Informe o e-mail">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label for="inputTituloidade">Título</label>
+                    <input type="text" class="form-control" id="inputTitulo" placeholder="Informe a título do curso" >
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label for="inputConteudo">Conteúdo</label>
+                    <textarea class="form-control" id="inputConteudo" required placeholder="Informe a conteúdo do curso"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">    
+                <div class="col-sm-12">
+                    <label for="inputSite">Web Site (*)</label>
+                    <input type="text" class="form-control" id="inputSite" required placeholder="Web Site">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <small>(*) Campos obrigatórios</small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
+                    <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+                    <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
+                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
+                    <!-- <a href="lista_cursos.html"><input type="button" class="btn btn-warning" id="btnClear" value="Pesquisar Ccursos"></a> -->
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-cursos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <!-- <th scope="col">Telefone</th> -->
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Titulo</th>
+                            <th scope="col">Conteudo</th>
+                            <th scope="col">Site</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-cursos">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="CadastroCurso.js"></script>
+    <script>
+        function exibeCursos() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-cursos").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let curso = db.data[i];    
+                $("#table-cursos").append(`<tr><td scope="row">${curso.id}</td>
+                                                <td>${curso.nome}</td>
+                                                <td>${curso.email}</td>
+                                                <td>${curso.titulo}</td>
+                                                <td>${curso.conteudo}</td>
+                                                <td>${curso.website}</td>
+                                            </tr>`);
+            }
+        }
+
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-curso')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let campoNome = $("#inputNome").val();
+                // let campoTelefone = $("#inputTelefone").val();
+                let campoEmail = $('#inputEmail').val();
+                let campoTitulo = $("#inputTitulo").val();
+                let campoConteudo = $('#inputConteudo').val();
+                let campoSite = $('#inputSite').val();
+                let curso = { nome: campoNome, 
+                    // telefone: campoTelefone, 
+                    email: campoEmail, 
+                    titulo: campoTitulo, 
+                    conteudo: campoConteudo,
+                    website: campoSite };
+
+                insertCurso(curso);
+
+                // Reexibe os contatos
+                exibeCursos();
+
+                // Limpa o formulario
+                $("#form-curso")[0].reset();
+            });
+
+            // Intercepta o click do botão Alterar
+            $("#btnUpdate").click(function () {
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um curso para ser alterado.");
+                    return;
+                }
+                let campoNome = $("#inputNome").val();
+                // let campoTelefone = $("#inputTelefone").val();
+                let campoEmail = $("#inputEmail").val();
+                let campoTitulo = $("#inputTitulo").val();
+                let campoConteudo = $("#inputConteudo").val();
+                let campoSite = $('#inputSite').val();
+                let curso = { nome: campoNome, 
+                    // telefone: campoTelefone, 
+                    email: campoEmail, 
+                    titulo: campoTitulo, 
+                    conteudo: campoConteudo,
+                    website: campoSite };
+
+                updateCurso(parseInt(campoId), curso);
+
+                // Reexibe os contatos
+                exibeCursos();
+
+                // Limpa o formulario
+                $("#form-curso")[0].reset();
+            });
+
+            // Intercepta o click do botão Excluir
+            $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um curso a ser excluído.");
+                    return;
+                }
+                deleteCurso(parseInt(campoId));
+
+                // Reexibe os contatos
+                exibeCursos();
+
+                // Limpa o formulario
+                $("#form-curso")[0].reset();
+            });
+
+            // Intercepta o click do botão Listar Contatos
+            $("#btnClear").click(function () {
+                $("#form-curso")[0].reset();
+            });
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+            $("#grid-cursos").on("click", "tr", function (e) {
+                let linhaCurso = this;
+                colunas = linhaCurso.querySelectorAll("td");
+
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputNome").val(colunas[1].innerText);
+                // $("#inputTelefone").val(colunas[2].innerText);
+                $("#inputEmail").val(colunas[2].innerText);
+                $("#inputTitulo").val(colunas[3].innerText);
+                $("#inputConteudo").val(colunas[4].innerText);
+                $("#inputSite").val(colunas[5].innerText);
+            });
+
+            exibeCursos();
+        }
+    </script>
+</body>
+
+</html>
