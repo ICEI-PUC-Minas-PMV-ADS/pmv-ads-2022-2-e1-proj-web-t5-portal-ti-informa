@@ -44,7 +44,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* https://portalti.herokuapp.com/. 
+* https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t5-portal-ti-informa/ 
 
 # Armazenamento do Código-Fonte
 
