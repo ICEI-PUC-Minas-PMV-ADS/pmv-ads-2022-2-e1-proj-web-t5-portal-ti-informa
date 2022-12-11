@@ -3,94 +3,94 @@ var db_cursos_inicial = {
     "data": [
         {
             "id": 1,
-            "nome": "Leanne Graham",
+            "nome": "Daniella Souza",
             "titulo": "Entenda o que faz um Analista de Sistema",
-            "conteudo": "amigos",
-            "email": "Sincere@april.biz",
+            "conteudo": "Nesse vídeo você vai conhecer o que um profissional de Análise e Desenvolvimento de Sistemas faz. Saiba, entre outras coisas, onde eles atuam e qual a formação necessária para atuar no mercado.",
+            "email": "danisouza@yesenia.net",
             // "telefone": "1-770-736-8031",
-            "website": "hildegard.org"
+            "website": "https://www.youtube.com/watch?v=5K7OGSsWlzUg"
         },
         {
             "id": 2,
-            "nome": "Ervin Howell",
-            "titulo": "Betim",
-            "conteudo": "familia",
-            "email": "Shanna@melissa.tv",
+            "nome": "Daniella Souza",
+            "titulo": "HTML descomplicado",
+            "conteudo": "Neste curso completo de HTML você vai aprender a linguagem de base de toda a web. Abordaremos tudo que você precisa aprender para iniciar sua Home Page.",
+            "email": "danisouza@yesenia.net",
             // "telefone": "010-692-6593",
-            "website": "anastasia.net"
+            "website": "https://www.youtube.com/watch?v=nPEpaft1y1k"
         },
         {
             "id": 3,
-            "nome": "Clementine Bauch",
-            "titulo": "Rio de Janeiro",
-            "conteudo": "trabalho",
-            "email": "Nathan@yesenia.net",
+            "nome": "Daniella Souza",
+            "titulo": "Primeiros passos para criar um algorítmo",
+            "conteudo": "Neste curso Lógica de Programação para iniciantes você vai aprender todo o passo a passo necessário para montar algoritimos e como isso pode ser usado para criar um software do zero.",
+            "email": "danisouza@yesenia.net",
             // "telefone": "1-463-123-4447",
-            "website": "ramiro.info"
+            "website": "https://www.youtube.com/watch?v=iF2MdbrTiBM"
         },
         {
             "id": 4,
-            "nome": "Patricia Lebsack",
-            "titulo": "Betim",
-            "conteudo": "trabalho",
-            "email": "Julianne.OConner@kory.org",
+            "nome": "Daniella Souza",
+            "titulo": "CSS básico",
+            "conteudo": "Neste curso completo de CSS você encontra as principais propriedades e funcionamentos do CSS de forma detalhada. O CSS é a linguagem que define o estilo visual em páginas web.",
+            "email": "danisouza@yesenia.net",
             // "telefone": "493-170-9623 x156",
-            "website": "kale.biz"
+            "website": "https://www.youtube.com/watch?v=w1J6gY40yMo"
         },
         {
             "id": 5,
-            "nome": "Chelsey Dietrich",
-            "titulo": "São Paulo",
-            "conteudo": "familia",
-            "email": "Lucio_Hettinger@annie.ca",
+            "nome": "Daniella Souza",
+            "titulo": "Engenharia de Requisitos no Contexto Ágil",
+            "conteudo": "Nesse curso de Engenharia de Requisitos você vai aprender técnicas para fazer levantamento, análise e gestão de requisitos de software a fim de atingir aos objetivos do negócio do cliente.a",
+            "email": "danisouza@yesenia.net",
             // "telefone": "(254)954-1289",
-            "website": "demarco.info"
+            "website": "https://www.fattocs.com/blog/engenharia-de-requisitos-no-contexto-agil/"
         },
         {
             "id": 6,
-            "nome": "Mrs. Dennis Schulist",
-            "titulo": "Rio de Janeiro",
-            "conteudo": "trabalho",
-            "email": "Karley_Dach@jasper.info",
+            "nome": "Daniella Souza",
+            "titulo": "Plano de Teste de Software",
+            "conteudo": "Nesse curso você vai aprender como planejar seus testes de software evitando desperdícios e documentando realmente o que importa.",
+            "email": "danisouza@yesenia.net",
             // "telefone": "1-477-935-8478",
-            "website": "ola.org"
+            "website": "https://www.youtube.com/watch?v=lYiwTa7BWHQ"
         },
-        {
+        /*{
             "id": 7,
-            "nome": "Kurtis Weissnat",
+            "nome": "Daniella Souza",
             "titulo": "Belo Horizonte",
             "conteudo": "amigos",
-            "email": "Telly.Hoeger@billy.biz",
+            "email": "danisouza@yesenia.net",
             // "telefone": "210.067.6132",
             "website": "elvis.io"
         },
         {
             "id": 8,
-            "nome": "Nicholas Runolfsdottir V",
+            "nome": "Daniella Souza",
             "titulo": "Belo Horizonte",
             "conteudo": "familia",
-            "email": "Sherwood@rosamond.me",
+            "email": "danisouza@yesenia.net",
             // "telefone": "586.493.6943",
             "website": "jacynthe.com"
         },
         {
             "id": 9,
-            "nome": "Glenna Reichert",
+            "nome": "Daniella Souza",
             "titulo": "Betim",
             "conteudo": "amigos",
-            "email": "Chaim_McDermott@dana.io",
+            "email": "danisouza@yesenia.net",
             // "telefone": "(775)976-6794",
             "website": "conrad.com"
         },
         {
             "id": 10,
-            "nome": "Clementina DuBuque",
+            "nome": "Daniella Souza",
             "titulo": "São Paulo",
             "conteudo": "amigos",
-            "email": "Rey.Padberg@karina.biz",
+            "email": "danisouza@yesenia.net",
             // "telefone": "024-648-3804",
             "website": "ambrose.net"
-        }
+        }*/
     ]
 }
 
